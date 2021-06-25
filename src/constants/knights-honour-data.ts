@@ -1,4 +1,4 @@
-// Data manually entered by looking up the list here "https://darksouls.wiki.fextralife.com/Knight's+Honor+Achievement+Guide" and entering it below.
+// Data manually entered by looking up the items on this list "https://darksouls.wiki.fextralife.com/Knight's+Honor+Achievement+Guide" 
 export const knightsHonourBossSoulsList = [
   "weapon-503000", //	Chaos Blade
   "weapon-1411000", //  Crystal Ring Shield
