@@ -1,7 +1,6 @@
 import React, { SyntheticEvent, useState } from "react";
 import { itemMap } from "./constants/full-item-list";
 import { Form, Table } from "semantic-ui-react";
-import "./App.css";
 
 function App() {
   const itemsAsOptions = Array.from(itemMap.keys()).map((key) => ({
