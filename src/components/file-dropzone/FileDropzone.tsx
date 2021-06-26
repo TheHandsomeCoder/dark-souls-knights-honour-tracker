@@ -37,7 +37,7 @@ export function FileDropzone(props: FileDropzoneProps) {
           <Header as="h2" icon textAlign="center" color="grey">
             <Icon name="upload" circular />
             <Header.Content>
-              Drag n Drop you save here or click to choose a file{" "}
+              Drop your Dark Souls save here or click to choose a file
             </Header.Content>
           </Header>
         </Segment>
