@@ -6,7 +6,7 @@ import { CharacterSelector } from './components/character-selector/CharacterSele
 export interface Character {
   name: string;
   level: number;
-  Items: Item[];
+  items: Item[];
 };
 
 interface Item {

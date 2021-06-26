@@ -44,6 +44,7 @@ export function CharacterSelector(props: CharacterSelectorProps) {
             selection
             options={characterOptions}
             onChange={selectedCharacterOnChange}
+            value={selectedCharacter.name}
           />
         </Segment>
       </Container>

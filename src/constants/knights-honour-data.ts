@@ -62,3 +62,11 @@ export const knightsHonourTailList = [
 "weapon-104000", //     Priscilla's Dagger
 "weapon-705000", //     Gargoyle Tail Axe
 ];
+
+export const knightsHonorData = {
+  'Boss Souls Weapons': knightsHonourBossSoulsList,
+  'Dropped By Enemies': knightsHonourDroppedByEnemiesList,
+  'Found As Tresure': knightsHonourFoundAsTresureList,
+  'From Covenants': knightsHonourFromCovenant,
+  'From Tails': knightsHonourTailList,
+}
