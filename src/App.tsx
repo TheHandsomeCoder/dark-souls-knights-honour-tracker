@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { FileDropzone } from "./components/file-dropzone";
 import { Container } from "semantic-ui-react";
-import { CharacterSelector } from './components/character-selector';
+import { CharacterSelector } from './components/character-selector/CharacterSelector';
 
 export interface Character {
   name: string;
@@ -22,8 +22,10 @@ function App() {
   return (
     <div className="App">
       <Container>
-        { characters.length === 0 && <FileDropzone callback={setCharacters} /> }
-        { characters.length !== 0 && <CharacterSelector characters={characters}/>}
+        { characters.length === 0 
+          ? <FileDropzone callback={setCharacters} />
+          : <CharacterSelector characters={characters}/>
+        }
       </Container>
     </div>
   );
