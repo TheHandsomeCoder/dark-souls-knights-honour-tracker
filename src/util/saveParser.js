@@ -104,12 +104,11 @@ const getPlayersSave = (data, offsets) => {
             else if (item.id < 6000) item.type = "magic";
           } else item.type = "";
           if (item.type !== "") {
-            const x =
-              player.items.findIndex(
-                (elem) => elem.id === item.id && elem.type === item.type
-              ) !== -1;
-            if (x) player.items[x].amount += item.amount;
-            else player.items.push(item);
+            let x = player.items.findIndex(elem => elem.id === item.id && elem.type === item.type);
+            if (x !== -1)
+              player.items[x].amount += item.amount;
+            else
+              player.items.push(item);
           }
         }
       }

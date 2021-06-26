@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
+import { parseSaveFile } from './util/saveParser';
 
 export function FileDropzone() {
   const onDrop = useCallback((acceptedFiles) => {
@@ -11,9 +12,10 @@ export function FileDropzone() {
       reader.onload = () => {
         // Do whatever you want with the file contents
         const binaryStr = reader.result;
-        console.log(binaryStr);
+        const saves = parseSaveFile(binaryStr);
+        console.log(saves);
       };
-      reader.readAsArrayBuffer(file);
+      reader.readAsBinaryString(file);
     });
   }, []);
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
