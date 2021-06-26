@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
-import { parseSaveFile } from './util/saveParser';
+import { parseSaveFile } from "../util/saveParser";
+import { Container, Icon, Header } from "semantic-ui-react";
 
 export function FileDropzone() {
   const onDrop = useCallback((acceptedFiles) => {
@@ -21,9 +22,14 @@ export function FileDropzone() {
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
   return (
-    <div {...getRootProps()}>
-      <input {...getInputProps()} />
-      <p>Drag 'n' drop some files here, or click to select files</p>
-    </div>
+    <Container>
+      <div {...getRootProps()}>
+        <input {...getInputProps()} />
+        <Header as="h2" icon textAlign="center" color='grey'>
+          <Icon name="upload" circular />
+          <Header.Content>Drag n Drop you save here or click to choose a file </Header.Content>
+        </Header>
+      </div>
+    </Container>
   );
 }

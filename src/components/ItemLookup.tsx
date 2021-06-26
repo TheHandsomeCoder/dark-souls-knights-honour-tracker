@@ -1,5 +1,5 @@
 import React, { SyntheticEvent, useState } from "react";
-import { itemMap } from "./constants/full-item-list";
+import { itemMap } from "../constants/full-item-list";
 import { Form, Table } from "semantic-ui-react";
 
 function ItemLookup() {
