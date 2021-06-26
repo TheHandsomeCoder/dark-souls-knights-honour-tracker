@@ -30,7 +30,7 @@ export function FileDropzone(props: FileDropzoneProps) {
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
   return (
-    <Container className="file-dropzone">
+    <Container className="file-dropzone" text>
       <div {...getRootProps()}>
         <Segment>
           <input {...getInputProps()} />

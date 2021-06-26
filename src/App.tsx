@@ -1,9 +1,18 @@
 import React, {useState} from "react";
 import { FileDropzone } from "./components/file-dropzone";
 import { Container } from "semantic-ui-react";
+import { CharacterSelector } from './components/character-selector';
 
-interface Character {
+export interface Character {
   name: string;
+  level: number;
+  Items: Item[];
+};
+
+interface Item {
+  type: string,
+  id: number,
+  amount: number
 }
 
 function App() {
@@ -12,8 +21,9 @@ function App() {
 
   return (
     <div className="App">
-      <Container text>
-        <FileDropzone callback={setCharacters} />
+      <Container>
+        { characters.length === 0 && <FileDropzone callback={setCharacters} /> }
+        { characters.length !== 0 && <CharacterSelector characters={characters}/>}
       </Container>
     </div>
   );
