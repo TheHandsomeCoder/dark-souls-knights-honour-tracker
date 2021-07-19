@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <Container>
         { characters.length === 0 
-          ? <FileDropzone callback={setBinaryData} />
+          ? <FileDropzone onReadFile={setBinaryData} />
           : <CharacterSelector characters={characters}/>
         }
       </Container>
