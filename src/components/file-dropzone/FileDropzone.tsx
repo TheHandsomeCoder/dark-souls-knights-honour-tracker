@@ -1,11 +1,10 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
-import { parseSaveFile } from "../../util/saveParser";
 import { Container, Icon, Header, Segment } from "semantic-ui-react";
 import "./FileDropzone.css";
 
 interface FileDropzoneProps {
-  callback: (data: any) => void;
+  callback: (data: ArrayBuffer) => void;
 }
 
 export function FileDropzone(props: FileDropzoneProps) {
@@ -18,10 +17,8 @@ export function FileDropzone(props: FileDropzoneProps) {
         reader.onerror = () => console.log("file reading has failed");
         reader.onload = () => {
           // Do whatever you want with the file contents
-          const binaryStr = reader.result;
-          const characters = parseSaveFile(binaryStr);
-          console.log(characters);
-          props.callback(characters);
+          const binaryStr = reader.result as ArrayBuffer;
+          props.callback(binaryStr);
         };
       });
     },

@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { FileDropzone } from "./components/file-dropzone";
 import { Container } from "semantic-ui-react";
 import { CharacterSelector } from './components/character-selector/CharacterSelector';
+import { parseSaveFile } from "./util/saveParser";
 
 export interface Character {
   name: string;
@@ -17,13 +18,18 @@ interface Item {
 
 function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [characters, setCharacters] = useState<Character[]>([])
+  const [binaryData, setBinaryData] = useState<ArrayBuffer>();
+  let characters: any = [];
+
+  if(binaryData) {
+     characters = parseSaveFile(binaryData);
+  }
 
   return (
     <div className="App">
       <Container>
         { characters.length === 0 
-          ? <FileDropzone callback={setCharacters} />
+          ? <FileDropzone callback={setBinaryData} />
           : <CharacterSelector characters={characters}/>
         }
       </Container>
