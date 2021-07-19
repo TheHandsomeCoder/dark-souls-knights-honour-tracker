@@ -3,6 +3,12 @@ export const parseSaveFile = (buffer: ArrayBuffer) => {
     return true;
 }
 
+export enum DSFileTypes{
+    PREPARE_TO_DIE,
+    REMASTERED,
+    UNKNOWN
+}
+
 const BND4 = 'BND4';
 const isBND4File = (buffer:ArrayBuffer) => {
     const decoder = new TextDecoder();
