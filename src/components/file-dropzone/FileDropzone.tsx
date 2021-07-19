@@ -1,6 +1,5 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
-import { parseSaveFile } from "../../util/saveParser";
 import { Container, Icon, Header, Segment } from "semantic-ui-react";
 import "./FileDropzone.css";
 
