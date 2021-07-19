@@ -28,11 +28,12 @@ const isBND4File = (buffer: ArrayBuffer) => {
   return decodedFirstFourBytes === BND4;
 };
 
+const DSPTDVersion = '00000001';
 export const isPrepareToDieSaveFile = (buffer: ArrayBuffer) => {
     const rawVersion = new Uint8Array(buffer.slice(0x18, 0x20));
     const decoder = new TextDecoder();
     const version = decoder.decode(rawVersion);
-    return version === "00000001"
+    return version === DSPTDVersion;
 };
 
 
