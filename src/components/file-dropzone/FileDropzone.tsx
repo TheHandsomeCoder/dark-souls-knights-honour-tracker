@@ -4,7 +4,7 @@ import { Container, Icon, Header, Segment } from "semantic-ui-react";
 import "./FileDropzone.css";
 
 interface FileDropzoneProps {
-  callback: (data: ArrayBuffer) => void;
+  onReadFile: (data: ArrayBuffer) => void;
 }
 
 export function FileDropzone(props: FileDropzoneProps) {
@@ -18,7 +18,7 @@ export function FileDropzone(props: FileDropzoneProps) {
         reader.onload = () => {
           // Do whatever you want with the file contents
           const binaryStr = reader.result as ArrayBuffer;
-          props.callback(binaryStr);
+          props.onReadFile(binaryStr);
         };
       });
     },
