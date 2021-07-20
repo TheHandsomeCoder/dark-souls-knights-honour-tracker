@@ -14,11 +14,11 @@ export enum DSFileTypes {
 }
 
 const REMASTERED_SAVE_FILE_SIZE = 0x4204D0;
-// const SAVE_SLOT_SIZE = 0x060030;
-// const BASE_SLOT_OFFSET = 0x02C0;
-// const USER_DATA_SIZE = 0x060020;
-// const USER_DATA_FILE_CNT = 11;
-// const USER_DATA_FILE_NAME_LEN = 13;
+// const REMASTERED_SAVE_SLOT_SIZE = 0x060030;
+// const REMASTERED_BASE_SLOT_OFFSET = 0x02C0;
+// const REMASTERED_USER_DATA_SIZE = 0x060020;
+// const REMASTERED_USER_DATA_FILE_CNT = 11;
+// const REMASTERED_USER_DATA_FILE_NAME_LEN = 13;
 
 const BND4 = "BND4";
 const isBND4File = (buffer: ArrayBuffer) => {
