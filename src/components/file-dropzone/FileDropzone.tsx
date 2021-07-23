@@ -12,7 +12,7 @@ export function FileDropzone(props: FileDropzoneProps) {
     (acceptedFiles) => {
       acceptedFiles.forEach((file: any) => {
         const reader = new FileReader();
-        reader.readAsBinaryString(file);
+        reader.readAsArrayBuffer(file);
         reader.onabort = () => console.log("file reading was aborted");
         reader.onerror = () => console.log("file reading has failed");
         reader.onload = () => {
