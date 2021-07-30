@@ -17,13 +17,11 @@ interface Item {
 }
 
 export class DarkSoulsPrepareToDieSaveSlot implements DarkSoulsSaveSlot {
-  private _saveSlotBuffer;
   name: string;
   level: number;
   inventory: Item[];
 
-  constructor(buf: ArrayBuffer) {
-    this._saveSlotBuffer = buf;
+  constructor(buf: ArrayBuffer) {  
     this.name = this.parseName(buf);
     this.level = this.parseLevel(buf);
     this.inventory = this.parseInventory(buf);

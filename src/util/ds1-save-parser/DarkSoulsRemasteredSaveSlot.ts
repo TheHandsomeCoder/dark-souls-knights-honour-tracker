@@ -16,13 +16,11 @@ interface Item {
 }
 
 export class DarkSoulsRemasteredSaveSlot implements DarkSoulsSaveSlot {
-  private _saveSlotBuffer;
   name: string;
   level: number;
   inventory: Item[];
 
-  constructor(buf: ArrayBuffer) {
-    this._saveSlotBuffer = buf;
+  constructor(buf: ArrayBuffer) {    
     this.name = this.parseName(buf);
     this.level = this.parseLevel(buf);
     this.inventory = this.parseInventory(buf);
@@ -42,7 +40,7 @@ export class DarkSoulsRemasteredSaveSlot implements DarkSoulsSaveSlot {
         currentDurablility: item[6],
       });
     }
-    return inventory.filter(i => ![ItemType.UNKNOWN, ItemType].includes(i.type));
+    return inventory.filter(i => ![ItemType.UNKNOWN, ItemType.EMPTY_SLOT].includes(i.type));
   }
   private parseLevel(buf: ArrayBuffer): number {
     return new Uint32Array(buf, 240, 4)[0];
