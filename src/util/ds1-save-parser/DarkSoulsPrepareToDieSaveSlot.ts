@@ -27,7 +27,7 @@ export class DarkSoulsPrepareToDieSaveSlot implements DarkSoulsSaveSlot {
     this.inventory = this.parseInventory(buf);
   }
   private parseInventory(buf: ArrayBuffer): Item[] {
-    const inventoryBlock = new Uint32Array(buf.slice(0x2CC, 0xE000));
+    const inventoryBlock = new Uint32Array(buf.slice(0x2e0, 0xe2e0));
     const inventory: Item[] = [];
     for (let i = 0; i < inventoryBlock.length; i += 7) {
       const item = inventoryBlock.slice(i, i + 7);
@@ -47,12 +47,12 @@ export class DarkSoulsPrepareToDieSaveSlot implements DarkSoulsSaveSlot {
     return inventory;
   }
   private parseLevel(buf: ArrayBuffer): number {
-    return new Uint32Array(buf, 240, 4)[0];
+    return new Uint32Array(buf, 0xe8, 4)[0];
   }
 
   private parseName(buf: ArrayBuffer): string {
     const name = new TextDecoder("utf-16")
-      .decode(new Uint16Array(buf.slice(0x108, 0x122)))
+      .decode(new Uint16Array(buf.slice(0x100, 0x11C)))
       .split("\u0000")[0];
     return name;
   }
