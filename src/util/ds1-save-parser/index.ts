@@ -8,6 +8,7 @@ export enum ItemType {
   "RING" = 32,
   "OTHER" = 64,
   "EMPTY_SLOT" = 255,
+  "UNKNOWN" = -1
 }
 
 const REMASTERED_SAVE_SLOT_SIZE = 0x060030;

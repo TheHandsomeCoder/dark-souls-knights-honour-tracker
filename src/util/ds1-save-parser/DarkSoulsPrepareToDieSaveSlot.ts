@@ -33,8 +33,8 @@ export class DarkSoulsPrepareToDieSaveSlot implements DarkSoulsSaveSlot {
     const inventory: Item[] = [];
     for (let i = 0; i < inventoryBlock.length; i += 7) {
       const item = inventoryBlock.slice(i, i + 7);
-      inventory.push({
-        type: ItemType[new Uint8Array(item.buffer)[3]],
+      inventory.push({        
+        type: ItemType[ItemType[new Uint8Array(item.buffer)[3]] as keyof typeof ItemType],
         id: item[1],
         amount: item[2],
         position: item[3],
@@ -45,7 +45,7 @@ export class DarkSoulsPrepareToDieSaveSlot implements DarkSoulsSaveSlot {
         //skipBytes(data, 8);
       });
     }
-    return inventory;
+    return inventory.filter(i => ![ItemType.UNKNOWN, ItemType.EMPTY_SLOT].includes(i.type));
   }
   private parseLevel(buf: ArrayBuffer): number {
     return new Uint32Array(buf, 0xe8, 4)[0];

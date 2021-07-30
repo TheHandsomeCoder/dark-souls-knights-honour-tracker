@@ -28,23 +28,21 @@ export class DarkSoulsRemasteredSaveSlot implements DarkSoulsSaveSlot {
     this.inventory = this.parseInventory(buf);
   }
   private parseInventory(buf: ArrayBuffer): Item[] {
-    const inventoryBlock = new Uint32Array(buf.slice(0x2e4, 0xe2e4));
+    const inventoryBlock = new Uint32Array(buf.slice(0x370, 0xe370));
     const inventory: Item[] = [];
     for (let i = 0; i < inventoryBlock.length; i += 7) {
       const item = inventoryBlock.slice(i, i + 7);
       inventory.push({
-        type: ItemType[new Uint8Array(item.buffer)[3]],
+        type: ItemType[ItemType[new Uint8Array(item.buffer)[3]] as keyof typeof ItemType],
         id: item[1],
         amount: item[2],
         position: item[3],
         have: item[4],
         maxDurablility: item[5],
         currentDurablility: item[6],
-
-        //skipBytes(data, 8);
       });
     }
-    return inventory;
+    return inventory.filter(i => ![ItemType.UNKNOWN, ItemType].includes(i.type));
   }
   private parseLevel(buf: ArrayBuffer): number {
     return new Uint32Array(buf, 240, 4)[0];
