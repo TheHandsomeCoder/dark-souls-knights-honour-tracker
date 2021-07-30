@@ -1,4 +1,6 @@
 import { AES_CBC_Decrypter } from "../aes-tools";
+import { DarkSoulsRemasteredSaveSlot } from "./DarkSoulsRemasteredSaveSlot";
+import { DarkSoulsPrepareToDieSaveSlot } from "./DarkSoulsPrepareToDieSaveSlot";
 
 const REMASTERED_SAVE_SLOT_SIZE = 0x060030;
 const REMASTERED_BASE_SLOT_OFFSET = 0x02c0;
@@ -7,6 +9,15 @@ const REMASTERED_USER_DATA_FILE_CNT = 11;
 const REMASTERED_USER_DATA_FILE_NAME_LEN = 13;
 const AES_BLOCKLENGTH = 16;
 
+
+const PREPARE_TO_DIE_BASE_SLOT_OFFSET = 0x02c0;
+const PREPARE_TO_DIE_USER_DATA_SIZE = 0x060021;
+const PREPARE_TO_DIE_USER_DATA_FILE_CNT = 11;
+const PREPARE_TO_DIE_USER_DATA_FILE_NAME_LEN = 13;
+
+
+
+
 export const parseDSSaveFile = async (buffer: ArrayBuffer) => {
   if (!isBND4File(buffer)) {
     throw new Error(
@@ -14,7 +25,7 @@ export const parseDSSaveFile = async (buffer: ArrayBuffer) => {
     );
   }
   if (isPrepareToDieSaveFile(buffer)) {
-    throw new Error("Not implemented");
+   return extractDSPTDSaveSlots(buffer);
   } else if (isDSRemastered(buffer)) {
     return decryptAndExtractDSRSaveSlots(buffer);
   }
@@ -27,11 +38,7 @@ export enum DSFileTypes {
 }
 
 const REMASTERED_SAVE_FILE_SIZE = 0x4204d0;
-// const REMASTERED_SAVE_SLOT_SIZE = 0x060030;
-// const REMASTERED_BASE_SLOT_OFFSET = 0x02C0;
-// const REMASTERED_USER_DATA_SIZE = 0x060020;
-// const REMASTERED_USER_DATA_FILE_CNT = 11;
-// const REMASTERED_USER_DATA_FILE_NAME_LEN = 13;
+
 
 
 const BND4 = "BND4";
@@ -59,14 +66,19 @@ const RAW_KEY = new Uint8Array([
   0x54, 0x32, 0x10,
 ]);
 
-const decryptAndExtractDSRSaveSlots = async (buffer: ArrayBuffer) => {
-  const decrypt = AES_CBC_Decrypter(RAW_KEY, 16);
-  const slots = extractSaveSlots(buffer);
-  const saveSlots = await Promise.all(slots.map(i => decrypt(i)));
-  return saveSlots.map(i => getCharacterName(i));
+const extractDSPTDSaveSlots = (buffer: ArrayBuffer) => { 
+  const slots = extractPTDSaveSlots(buffer);  
+  return slots.map(i => new DarkSoulsPrepareToDieSaveSlot(i));
 };
 
-const extractSaveSlots = (buffer: ArrayBuffer) => {
+const decryptAndExtractDSRSaveSlots = async (buffer: ArrayBuffer) => {
+  const decrypt = AES_CBC_Decrypter(RAW_KEY, 16);
+  const slots = extractRemasteredSaveSlots(buffer);
+  const saveSlots = await Promise.all(slots.map(i => decrypt(i)));
+  return saveSlots.map(i => new DarkSoulsRemasteredSaveSlot(i));
+};
+
+const extractRemasteredSaveSlots = (buffer: ArrayBuffer) => {
   return Array(REMASTERED_USER_DATA_FILE_CNT).fill('').map((_, i) => {
     let startLocation =
       REMASTERED_BASE_SLOT_OFFSET + i * REMASTERED_SAVE_SLOT_SIZE;
@@ -76,10 +88,15 @@ const extractSaveSlots = (buffer: ArrayBuffer) => {
     );
   });
 };
-
-const getCharacterName = (buffer: ArrayBuffer): string => {
-  const name = new TextDecoder("utf-16").decode(
-    new Uint16Array(buffer.slice(0x108, 0x122))
-  ).split('\u0000')[0];
-  return name;
+const extractPTDSaveSlots = (buffer: ArrayBuffer) => {
+  return Array(REMASTERED_USER_DATA_FILE_CNT).fill('').map((_, i) => {
+    let startLocation =
+      REMASTERED_BASE_SLOT_OFFSET + i * PREPARE_TO_DIE_USER_DATA_SIZE;
+    return buffer.slice(
+      startLocation,
+      startLocation + PREPARE_TO_DIE_USER_DATA_SIZE
+    );
+  });
 };
+
+
