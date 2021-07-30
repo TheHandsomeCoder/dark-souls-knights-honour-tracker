@@ -1,3 +1,5 @@
+import {ItemType} from './';
+
 export interface DarkSoulsSaveSlot {
   name: string;
   level: number;
@@ -5,7 +7,7 @@ export interface DarkSoulsSaveSlot {
 }
 
 interface Item {
-  type: number;
+  type: ItemType;
   id: number;
   amount: number;
   position: number;
@@ -31,9 +33,8 @@ export class DarkSoulsPrepareToDieSaveSlot implements DarkSoulsSaveSlot {
     const inventory: Item[] = [];
     for (let i = 0; i < inventoryBlock.length; i += 7) {
       const item = inventoryBlock.slice(i, i + 7);
-      const test = new Uint8Array(item.buffer);
       inventory.push({
-        type: test.slice(3,4)[0],
+        type: ItemType[new Uint8Array(item.buffer)[3]],
         id: item[1],
         amount: item[2],
         position: item[3],
