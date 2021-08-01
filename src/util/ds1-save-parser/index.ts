@@ -2,15 +2,6 @@ import { AES_CBC_Decrypter } from "../aes-tools";
 import { DarkSoulsRemasteredSaveSlot } from "./DarkSoulsRemasteredSaveSlot";
 import { DarkSoulsPrepareToDieSaveSlot } from "./DarkSoulsPrepareToDieSaveSlot";
 
-export enum ItemType {
-  "WEAPON" = 0,
-  "ARMOR" = 16,
-  "RING" = 32,
-  "OTHER" = 64,
-  "EMPTY_SLOT" = 255,
-  "UNKNOWN" = -1
-}
-
 const REMASTERED_SAVE_SLOT_SIZE = 0x060030;
 const REMASTERED_BASE_SLOT_OFFSET = 0x02c0;
 const REMASTERED_USER_DATA_SIZE = 0x060020;

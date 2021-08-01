@@ -1,6 +1,6 @@
-
+import { itemList } from "../../constants/new-full-item-list";
 export enum ItemType {
-  "WEAPON" = 0,
+  "WEAPONRY" = 0,
   "ARMOR" = 16,
   "RING" = 32,
   "OTHER" = 64,
@@ -16,6 +16,7 @@ export interface Item {
   have: number;
   maxDurablility: number;
   currentDurablility: number;
+  itemName: string;
 }
 
 export interface DarkSoulsSaveSlot {
@@ -36,6 +37,8 @@ export abstract class DarkSoulsSaveSlot implements DarkSoulsSaveSlot {
     const inventory: Item[] = [];
     for (let i = 0; i < inventoryBlock.length; i += 7) {
       const item = inventoryBlock.slice(i, i + 7);
+
+      const lookupId = `${ItemType[new Uint8Array(item.buffer)[3]]}.${item[1]}`;
       inventory.push({
         type: ItemType[
           ItemType[new Uint8Array(item.buffer)[3]] as keyof typeof ItemType
@@ -46,6 +49,7 @@ export abstract class DarkSoulsSaveSlot implements DarkSoulsSaveSlot {
         have: item[4],
         maxDurablility: item[5],
         currentDurablility: item[6],
+        itemName: itemList.get(lookupId) as string,
       });
     }
     return inventory.filter(
