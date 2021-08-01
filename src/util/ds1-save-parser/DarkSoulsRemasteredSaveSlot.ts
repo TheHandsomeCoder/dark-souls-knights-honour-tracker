@@ -1,52 +1,22 @@
-import {ItemType} from './';
-export interface DarkSoulsSaveSlot {
-  name: string;
-  level: number;
-  inventory: Item[];
-}
+import { DarkSoulsSaveSlot, Item } from "./DarkSoulsSaveFile";
 
-interface Item {
-  type: ItemType;
-  id: number;
-  amount: number;
-  position: number;
-  have: number;
-  maxDurablility: number;
-  currentDurablility: number;
-}
-
-export class DarkSoulsRemasteredSaveSlot implements DarkSoulsSaveSlot {
+export class DarkSoulsRemasteredSaveSlot extends DarkSoulsSaveSlot {
   name: string;
   level: number;
   inventory: Item[];
 
-  constructor(buf: ArrayBuffer) {    
+  constructor(buf: ArrayBuffer) {
+    super();
     this.name = this.parseName(buf);
     this.level = this.parseLevel(buf);
-    this.inventory = this.parseInventory(buf);
+    this.inventory = this.parseInventory(buf, 0x370, 0xe370);
   }
-  private parseInventory(buf: ArrayBuffer): Item[] {
-    const inventoryBlock = new Uint32Array(buf.slice(0x370, 0xe370));
-    const inventory: Item[] = [];
-    for (let i = 0; i < inventoryBlock.length; i += 7) {
-      const item = inventoryBlock.slice(i, i + 7);
-      inventory.push({
-        type: ItemType[ItemType[new Uint8Array(item.buffer)[3]] as keyof typeof ItemType],
-        id: item[1],
-        amount: item[2],
-        position: item[3],
-        have: item[4],
-        maxDurablility: item[5],
-        currentDurablility: item[6],
-      });
-    }
-    return inventory.filter(i => ![ItemType.UNKNOWN, ItemType.EMPTY_SLOT].includes(i.type));
-  }
-  private parseLevel(buf: ArrayBuffer): number {
+  
+  protected override parseLevel(buf: ArrayBuffer): number {
     return new Uint32Array(buf, 240, 4)[0];
   }
 
-  private parseName(buf: ArrayBuffer): string {
+  protected override parseName(buf: ArrayBuffer): string {
     const name = new TextDecoder("utf-16")
       .decode(new Uint16Array(buf.slice(0x108, 0x122)))
       .split("\u0000")[0];
