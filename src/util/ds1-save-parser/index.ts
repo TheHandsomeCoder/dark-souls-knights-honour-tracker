@@ -24,6 +24,8 @@ export const parseDSSaveFile = async (buffer: ArrayBuffer) => {
     return extractDSPTDSaveSlots(buffer);
   } else if (isDSRemastered(buffer)) {
     return decryptAndExtractDSRSaveSlots(buffer);
+  } else {
+    return [];
   }
 };
 

@@ -1,17 +1,17 @@
 import React from "react";
 import { Container, Segment, Header, Table, List } from "semantic-ui-react";
-import { Character } from "../../App";
 import { knightsHonorData } from "../../constants/knights-honour-data";
 import { itemMap } from "../../constants/full-item-list";
 import "./KnightsHonorList.css";
+import { DarkSoulsSaveSlot } from "../../util/ds1-save-parser/DarkSoulsSaveFile";
 
 interface KnightsHonorListProps {
-  character: Character;
+  character: DarkSoulsSaveSlot;
 }
 
 export function KnightsHonorList(props: KnightsHonorListProps) {
   const itemSet = new Set(
-    props.character.items.map((i) => `${i.type}-${i.id}`)
+    props.character.inventory.map((i) => `${i.type}-${i.id}`)
   );
   const sections = Object.entries(knightsHonorData);
   return (
