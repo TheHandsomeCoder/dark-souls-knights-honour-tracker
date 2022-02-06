@@ -2,13 +2,14 @@ import { itemList } from "../../constants/new-full-item-list";
 export enum ItemType {
   "WEAPONRY" = 0,
   "ARMOR" = 16,
-  "RING" = 32,
+  "RINGS" = 32,
   "OTHER" = 64,
   "EMPTY_SLOT" = 255,
   "UNKNOWN" = -1,
 }
 
 export interface Item {
+  lookupID: string;
   type: ItemType;
   id: number;
   amount: number;
@@ -40,6 +41,7 @@ export abstract class DarkSoulsSaveSlot implements DarkSoulsSaveSlot {
 
       const lookupId = `${ItemType[new Uint8Array(item.buffer)[3]]}.${item[1]}`;
       inventory.push({
+        lookupID: lookupId,
         type: ItemType[
           ItemType[new Uint8Array(item.buffer)[3]] as keyof typeof ItemType
         ],

@@ -63,6 +63,7 @@ const RAW_KEY = new Uint8Array([
 ]);
 
 const extractDSPTDSaveSlots = (buffer: ArrayBuffer) => {
+  console.debug('DSPTD file detected');
   const slots = extractPTDSaveSlots(buffer);
   return slots.map((i) => new DarkSoulsPrepareToDieSaveSlot(i));
 };

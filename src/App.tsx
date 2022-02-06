@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FileDropzone } from "./components/file-dropzone";
-import { Container } from "semantic-ui-react";
+import { Container, Segment, Dimmer, Loader } from "semantic-ui-react";
 import { CharacterSelector } from "./components/character-selector/CharacterSelector";
 import { parseDSSaveFile } from "./util/ds1-save-parser";
 import { DarkSoulsSaveSlot } from "./util/ds1-save-parser/DarkSoulsSaveFile";
@@ -17,28 +17,44 @@ interface Item {
   amount: number;
 }
 
+const ParseFileLoader = () => (
+  <div>
+    <Segment>
+      <Dimmer active>
+        <Loader indeterminate>Preparing Files</Loader>
+      </Dimmer>
+    </Segment>
+  </div>
+);
+
+function renderBody(
+  loading: boolean,
+  characters: DarkSoulsSaveSlot[],
+  parseFile: any
+) {
+  if (loading) {
+    return <ParseFileLoader />;
+  } else if (characters.length !== 0) {
+    return <CharacterSelector characters={characters} />;
+  } else {
+    return <FileDropzone onReadFile={parseFile} />;
+  }
+}
+
 function App() {
-  const [binaryData, setBinaryData] = useState<ArrayBuffer>();
+  const [loading, setLoading] = useState<boolean>(false);
   const [characters, setCharacters] = useState<Array<DarkSoulsSaveSlot>>([]);
 
-
-  if (binaryData) {
+  const parseFile = React.useCallback((binaryData: ArrayBuffer) => {
+    setLoading(true);
     parseDSSaveFile(binaryData)
-      .then((chars) => {
-        setCharacters(chars);
-      })
-      .catch((err) => console.log(err));
-  }
+      .then((c) => setCharacters(c))
+      .finally(() => setLoading(false));
+  }, []);
 
   return (
     <div className="App">
-      <Container>
-        {characters.length === 0 ? (
-          <FileDropzone onReadFile={setBinaryData} />
-        ) : (
-          <CharacterSelector characters={characters} />
-        )}
-      </Container>
+      <Container>{renderBody(loading, characters, parseFile)}</Container>
     </div>
   );
 }
