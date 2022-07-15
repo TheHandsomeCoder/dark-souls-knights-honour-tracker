@@ -64,9 +64,9 @@ export const knightsHonourTailList = [
 ];
 
 export const knightsHonorData = {
-  'Boss Souls WEAPONRYs': knightsHonourBossSoulsList,
-  'Dropped By Enemies': knightsHonourDroppedByEnemiesList,
-  'Found As Tresure': knightsHonourFoundAsTresureList,
-  'From Covenants': knightsHonourFromCovenant,
-  'From Tails': knightsHonourTailList,
-}
+  "Assended using Boss Souls": knightsHonourBossSoulsList,
+  "Dropped By Enemies": knightsHonourDroppedByEnemiesList,
+  "Found As Treasure": knightsHonourFoundAsTresureList,
+  "From Covenants": knightsHonourFromCovenant,
+  "From Cutting Tails": knightsHonourTailList,
+};

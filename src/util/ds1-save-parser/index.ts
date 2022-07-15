@@ -4,15 +4,15 @@ import { DarkSoulsPrepareToDieSaveSlot } from "./DarkSoulsPrepareToDieSaveSlot";
 
 const REMASTERED_SAVE_SLOT_SIZE = 0x060030;
 const REMASTERED_BASE_SLOT_OFFSET = 0x02c0;
-const REMASTERED_USER_DATA_SIZE = 0x060020;
+// const REMASTERED_USER_DATA_SIZE = 0x060020;
 const REMASTERED_USER_DATA_FILE_CNT = 11;
-const REMASTERED_USER_DATA_FILE_NAME_LEN = 13;
-const AES_BLOCKLENGTH = 16;
+// const REMASTERED_USER_DATA_FILE_NAME_LEN = 13;
+// const AES_BLOCKLENGTH = 16;
 
-const PREPARE_TO_DIE_BASE_SLOT_OFFSET = 0x02c0;
+// const PREPARE_TO_DIE_BASE_SLOT_OFFSET = 0x02c0;
 const PREPARE_TO_DIE_USER_DATA_SIZE = 0x060020;
-const PREPARE_TO_DIE_USER_DATA_FILE_CNT = 11;
-const PREPARE_TO_DIE_USER_DATA_FILE_NAME_LEN = 13;
+// const PREPARE_TO_DIE_USER_DATA_FILE_CNT = 11;
+// const PREPARE_TO_DIE_USER_DATA_FILE_NAME_LEN = 13;
 
 export const parseDSSaveFile = async (buffer: ArrayBuffer) => {
   if (!isBND4File(buffer)) {
@@ -63,7 +63,6 @@ const RAW_KEY = new Uint8Array([
 ]);
 
 const extractDSPTDSaveSlots = (buffer: ArrayBuffer) => {
-  console.debug('DSPTD file detected');
   const slots = extractPTDSaveSlots(buffer);
   return slots.map((i) => new DarkSoulsPrepareToDieSaveSlot(i));
 };

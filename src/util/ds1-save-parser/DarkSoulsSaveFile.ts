@@ -9,7 +9,7 @@ export enum ItemType {
 }
 
 export interface Item {
-  lookupID: string;
+  lookupId: string;
   type: ItemType;
   id: number;
   amount: number;
@@ -18,6 +18,7 @@ export interface Item {
   maxDurablility: number;
   currentDurablility: number;
   itemName: string;
+  baseItemLookUpID: string
 }
 
 export interface DarkSoulsSaveSlot {
@@ -38,10 +39,11 @@ export abstract class DarkSoulsSaveSlot implements DarkSoulsSaveSlot {
     const inventory: Item[] = [];
     for (let i = 0; i < inventoryBlock.length; i += 7) {
       const item = inventoryBlock.slice(i, i + 7);
-
-      const lookupId = `${ItemType[new Uint8Array(item.buffer)[3]]}.${item[1]}`;
+      const id = item[1]
+      const lookupId = `${ItemType[new Uint8Array(item.buffer)[3]]}.${id}`;
+      const baseItemLookUpID = `${ItemType[new Uint8Array(item.buffer)[3]]}.${Math.floor(id/1000) * 1000}`;
       inventory.push({
-        lookupID: lookupId,
+        lookupId: lookupId,
         type: ItemType[
           ItemType[new Uint8Array(item.buffer)[3]] as keyof typeof ItemType
         ],
@@ -52,6 +54,7 @@ export abstract class DarkSoulsSaveSlot implements DarkSoulsSaveSlot {
         maxDurablility: item[5],
         currentDurablility: item[6],
         itemName: itemList.get(lookupId) as string,
+        baseItemLookUpID: baseItemLookUpID,
       });
     }
     return inventory.filter(

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Segment, Header, Table, List } from "semantic-ui-react";
+import { Container, Segment, Header, Table } from "semantic-ui-react";
 import { knightsHonorData } from "../../constants/knights-honour-data";
 import { itemList } from "../../constants/new-full-item-list";
 import "./KnightsHonorList.css";
@@ -11,7 +11,7 @@ interface KnightsHonorListProps {
 
 export function KnightsHonorList(props: KnightsHonorListProps) {
   const itemSet = new Set(
-    props.character.inventory.map((i) => i.lookupID)
+    props.character.inventory.map((i) => i.baseItemLookUpID)
   );
   const sections = Object.entries(knightsHonorData);
   return (
