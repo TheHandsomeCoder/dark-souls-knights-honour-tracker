@@ -1,26 +1,26 @@
 import React, { useState, SyntheticEvent } from "react";
 import { Container, Segment, Dropdown, Header, Icon } from "semantic-ui-react";
-import { Character } from "../../App";
+import { DarkSoulsSaveSlot } from "../../util/ds1-save-parser/DarkSoulsSaveFile";
 import { KnightsHonorList } from "../knights-honor-list/KnightsHonorList";
 import "./CharacterSelector.css";
 
 interface CharacterSelectorProps {
-  characters: Character[];
+  characters: DarkSoulsSaveSlot[];
 }
 
 export function CharacterSelector(props: CharacterSelectorProps) {
-  const characterOptions = props.characters.map((c) => ({
-    key: c.name,
+  const characterOptions = props.characters.map((c, i) => ({
+    key: i + '-' + c.name,
     text: c.name,
     value: c.name,
   }));
 
-  const [selectedCharacter, setSelectedCharacter] = useState<Character>(
+  const [selectedCharacter, setSelectedCharacter] = useState<DarkSoulsSaveSlot>(
     props.characters[0]
   );
   const selectedCharacterOnChange = (event: SyntheticEvent, data: any) => {
     const newSelectedCharacter = props.characters.find(c => c.name === data.value);
-    setSelectedCharacter(newSelectedCharacter as Character);
+    setSelectedCharacter(newSelectedCharacter as DarkSoulsSaveSlot);
   };
   if (!selectedCharacter) {
     return (
