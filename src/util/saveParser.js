@@ -22,29 +22,29 @@ const readIntLe = (data, nbBytes) => {
 };
 
 export const parseSaveFile = (data) => {
-  var fileFormat = read(data, 4);
-  skipBytes(data, 20);
-  var version = read(data, 8);
-  if (fileFormat !== "BND4" || version !== "00000001") {
-    console.warn("This probably isn't a Dark Souls' save file");
-    g_idx = 0;
-    return [];
-  }
-  skipBytes(data, 32);
-  const offsets = [];
-  for (var i = 0; i < 10; ++i) {
-    skipBytes(data, 16);
-    offsets.push(readIntLe(data, 4));
-    skipBytes(data, 12);
-  }
-  return getPlayersSave(data, offsets);
+  // var fileFormat = read(data, 4);
+  // skipBytes(data, 20);
+  // var version = read(data, 8);
+  // if (fileFormat !== "BND4" || version !== "00000001") {
+  //   console.warn("This probably isn't a Dark Souls' save file");
+  //   g_idx = 0;
+  //   return [];
+  // }
+  // skipBytes(data, 32);
+  // const offsets = [];
+  // for (var i = 0; i < 10; ++i) {
+  //   skipBytes(data, 16);
+  //   offsets.push(readIntLe(data, 4));
+  //   skipBytes(data, 12);
+  // }
+  return getPlayersSave(data, [0]);
 };
 
 const getPlayersSave = (data, offsets) => {
   const players = [];
   for (var offset of offsets) {
     var player = { name: "" };
-    g_idx = offset + 232;
+    g_idx = offset + 240;
     player.level = readIntLe(data, 4);
     skipBytes(data, 20);
     for (var i = 0; i < 28; ++i) {
@@ -53,9 +53,9 @@ const getPlayersSave = (data, offsets) => {
       if (c.charCodeAt(0) === 0) break;
       player.name += c;
     }
-    g_idx = offset + 724;
+    g_idx = offset + 724; //2d4
     if (player.level > 0) {
-      skipBytes(data, 12);
+      skipBytes(data, 16);
       player.items = [];
       while (g_idx < offset + 0xe2c4) {
         let item = {};
@@ -65,7 +65,7 @@ const getPlayersSave = (data, offsets) => {
         skipBytes(data, 4);
         let have = readIntLe(data, 4);
         skipBytes(data, 8);
-        if (have) {
+        //if (have) {
           if (item.type === 0 && item.id !== 900000) {
             item.id = Math.floor(item.id / 1000) * 1000;
             if (item.id < 2000000 || item.id >= 9000000) {
@@ -110,7 +110,7 @@ const getPlayersSave = (data, offsets) => {
             else
               player.items.push(item);
           }
-        }
+       // }
       }
       players.push(player);
     }

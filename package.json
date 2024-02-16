@@ -12,17 +12,17 @@
     "@types/react-dom": "^17.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-dropzone": "^11.3.4",
+    "react-dropzone": "^11.7.0",
     "react-scripts": "4.0.3",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.3",
-    "typescript": "^4.3.4",
+    "semantic-ui-react": "^2.1.1",
+    "typescript": "^4.3.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env='./test/custon-test-env.js'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
