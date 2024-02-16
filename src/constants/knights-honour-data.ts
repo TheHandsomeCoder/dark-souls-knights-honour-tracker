@@ -8,7 +8,7 @@ export const knightsHonourBossSoulsList = [
   "WEAPONRY.704000", //	Golem Axe
   "WEAPONRY.314000", //	Great Lord Greatsword
   "WEAPONRY.1507000", //  Greatshield of Artorias
-  "WEAPONRY.311000", //	Greatsword of Artorias
+  "WEAPONRY.311000", //	Greatsword of Artorias (Currsed)
   "WEAPONRY.307000", //	Greatsword of Artorias
   "WEAPONRY.1151000", //  Lifehunt Scythe
   "WEAPONRY.1052000", //  Moonlight Butterfly Horn
