@@ -6059,7 +6059,7 @@ export const itemMap = new Map([
     "weapon-311000",
     {
       id: 311000,
-      name: "Greatsword of Artorias",
+      name: "Greatsword of Artorias (Cursed)",
       type: "weapon",
       amount: 0,
       locations: {
