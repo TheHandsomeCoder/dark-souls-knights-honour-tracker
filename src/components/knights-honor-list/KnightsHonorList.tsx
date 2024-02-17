@@ -46,13 +46,13 @@ function ItemTable(props: ItemTableProps) {
       <Table.Body>
         {filteredItems.map((i) => {
           const item = itemList.get(i);
-          const locations = fullItemList.get(i).locations;
+          const itemWithLocations = itemMapWithLocations.get(i);
           return (
             <Table.Row key={i}>
               <Table.Cell>{item}</Table.Cell>
               <Table.Cell>
                 <List as="ul">
-                  {locations.map(([k, v]) => {
+                  {Object.entries(itemWithLocations!.locations).map(([k, v]) => {
                     return v.map((z: any, i: number) => (
                       <List.Item
                         as="li"
