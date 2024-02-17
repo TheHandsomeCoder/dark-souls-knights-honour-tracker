@@ -1,6 +1,6 @@
-export const itemMap = new Map([
+export const itemMapWithLocations = new Map([
   [
-    "item-200",
+    "OTHER-200",
     {
       id: 200,
       name: "Estus Flask",
@@ -21,7 +21,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-106",
+    "OTHER-106",
     {
       id: 106,
       name: "Orange Guidance Soapstone",
@@ -42,7 +42,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-100",
+    "OTHER-100",
     {
       id: 100,
       name: "White Sign Soapstone",
@@ -63,7 +63,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-375",
+    "OTHER-375",
     {
       id: 375,
       name: "Sunlight Medal",
@@ -98,7 +98,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-101",
+    "OTHER-101",
     {
       id: 101,
       name: "Red Sign Soapstone",
@@ -115,7 +115,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-102",
+    "OTHER-102",
     {
       id: 102,
       name: "Red Eye Orb",
@@ -132,7 +132,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-111",
+    "OTHER-111",
     {
       id: 111,
       name: "Cracked Red Eye Orb",
@@ -162,7 +162,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-113",
+    "OTHER-113",
     {
       id: 113,
       name: "Blue Eye Orb",
@@ -179,7 +179,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-374",
+    "OTHER-374",
     {
       id: 374,
       name: "Souvenir of Reprisal",
@@ -214,7 +214,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-115",
+    "OTHER-115",
     {
       id: 115,
       name: "Black Eye Orb",
@@ -231,7 +231,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-114",
+    "OTHER-114",
     {
       id: 114,
       name: "Dragon Eye",
@@ -248,7 +248,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-377",
+    "OTHER-377",
     {
       id: 377,
       name: "Dragon Head Stone",
@@ -265,7 +265,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-378",
+    "OTHER-378",
     {
       id: 378,
       name: "Dragon Torso Stone",
@@ -282,7 +282,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-109",
+    "OTHER-109",
     {
       id: 109,
       name: "Eye of Death",
@@ -330,7 +330,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-103",
+    "OTHER-103",
     {
       id: 103,
       name: "Black Separation Crystal",
@@ -347,7 +347,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-118",
+    "OTHER-118",
     {
       id: 118,
       name: "Purple Coward's Crystal",
@@ -364,7 +364,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-108",
+    "OTHER-108",
     {
       id: 108,
       name: "Book of the Guilty",
@@ -385,7 +385,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-373",
+    "OTHER-373",
     {
       id: 373,
       name: "Indictment",
@@ -402,7 +402,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-112",
+    "OTHER-112",
     {
       id: 112,
       name: "Servant Roster",
@@ -419,7 +419,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-260",
+    "OTHER-260",
     {
       id: 260,
       name: "Green Blossom",
@@ -448,7 +448,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-230",
+    "OTHER-230",
     {
       id: 230,
       name: "Elizabeth's Mushroom",
@@ -475,7 +475,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-270",
+    "OTHER-270",
     {
       id: 270,
       name: "Bloodred Moss Clump",
@@ -504,7 +504,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-271",
+    "OTHER-271",
     {
       id: 271,
       name: "Purple Moss Clump",
@@ -539,7 +539,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-272",
+    "OTHER-272",
     {
       id: 272,
       name: "Blooming Purple Moss Clump",
@@ -578,7 +578,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-274",
+    "OTHER-274",
     {
       id: 274,
       name: "Purging Stone",
@@ -619,7 +619,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-275",
+    "OTHER-275",
     {
       id: 275,
       name: "Egg Vermifuge",
@@ -666,7 +666,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-240",
+    "OTHER-240",
     {
       id: 240,
       name: "Divine Blessing",
@@ -719,7 +719,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-292",
+    "OTHER-292",
     {
       id: 292,
       name: "Firebomb",
@@ -746,7 +746,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-297",
+    "OTHER-297",
     {
       id: 297,
       name: "Black Firebomb",
@@ -781,7 +781,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-290",
+    "OTHER-290",
     {
       id: 290,
       name: "Throwing Knife",
@@ -808,7 +808,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-291",
+    "OTHER-291",
     {
       id: 291,
       name: "Poison Throwing Knife",
@@ -825,7 +825,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-293",
+    "OTHER-293",
     {
       id: 293,
       name: "Dung Pie",
@@ -854,7 +854,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-280",
+    "OTHER-280",
     {
       id: 280,
       name: "Repair Powder",
@@ -877,7 +877,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-310",
+    "OTHER-310",
     {
       id: 310,
       name: "Charcoal Pine Resin",
@@ -894,7 +894,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-311",
+    "OTHER-311",
     {
       id: 311,
       name: "Gold Pine Resin",
@@ -937,7 +937,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-313",
+    "OTHER-313",
     {
       id: 313,
       name: "Rotten Pine Resin",
@@ -954,7 +954,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-296",
+    "OTHER-296",
     {
       id: 296,
       name: "Lloyd's Talisman",
@@ -983,7 +983,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-294",
+    "OTHER-294",
     {
       id: 294,
       name: "Alluring Skull",
@@ -1013,7 +1013,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-312",
+    "OTHER-312",
     {
       id: 312,
       name: "Transient Curse",
@@ -1044,7 +1044,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-330",
+    "OTHER-330",
     {
       id: 330,
       name: "Homeward Bone",
@@ -1097,7 +1097,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-370",
+    "OTHER-370",
     {
       id: 370,
       name: "Prism Stone",
@@ -1132,7 +1132,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-510",
+    "OTHER-510",
     {
       id: 510,
       name: "Hello Carving",
@@ -1149,7 +1149,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-511",
+    "OTHER-511",
     {
       id: 511,
       name: "Thank You Carving",
@@ -1166,7 +1166,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-512",
+    "OTHER-512",
     {
       id: 512,
       name: "Very Good! Carving",
@@ -1183,7 +1183,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-513",
+    "OTHER-513",
     {
       id: 513,
       name: "I'm Sorry Carving",
@@ -1200,7 +1200,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-514",
+    "OTHER-514",
     {
       id: 514,
       name: "Help Me! Carving",
@@ -1217,7 +1217,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-371",
+    "OTHER-371",
     {
       id: 371,
       name: "Binoculars",
@@ -1240,7 +1240,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-400",
+    "OTHER-400",
     {
       id: 400,
       name: "Soul of a Lost Undead",
@@ -1275,7 +1275,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-401",
+    "OTHER-401",
     {
       id: 401,
       name: "Large Soul of a Lost Undead",
@@ -1310,7 +1310,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-402",
+    "OTHER-402",
     {
       id: 402,
       name: "Soul of a Nameless Soldier",
@@ -1339,7 +1339,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-403",
+    "OTHER-403",
     {
       id: 403,
       name: "Large Soul of a Nameless Soldier",
@@ -1404,7 +1404,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-404",
+    "OTHER-404",
     {
       id: 404,
       name: "Soul of a Proud Knight",
@@ -1451,7 +1451,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-405",
+    "OTHER-405",
     {
       id: 405,
       name: "Large Soul of a Proud Knight",
@@ -1504,7 +1504,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-406",
+    "OTHER-406",
     {
       id: 406,
       name: "Soul of a Brave Warrior",
@@ -1595,7 +1595,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-407",
+    "OTHER-407",
     {
       id: 407,
       name: "Large Soul of a Brave Warrior",
@@ -1630,7 +1630,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-408",
+    "OTHER-408",
     {
       id: 408,
       name: "Soul of a Hero",
@@ -1694,7 +1694,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-409",
+    "OTHER-409",
     {
       id: 409,
       name: "Soul of a Great Hero",
@@ -1717,7 +1717,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-390",
+    "OTHER-390",
     {
       id: 390,
       name: "Fire Keeper Soul",
@@ -1734,7 +1734,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-391",
+    "OTHER-391",
     {
       id: 391,
       name: "Fire Keeper Soul",
@@ -1751,7 +1751,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-392",
+    "OTHER-392",
     {
       id: 392,
       name: "Fire Keeper Soul",
@@ -1768,7 +1768,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-393",
+    "OTHER-393",
     {
       id: 393,
       name: "Fire Keeper Soul",
@@ -1803,7 +1803,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-705",
+    "OTHER-705",
     {
       id: 705,
       name: "Soul of the Moonlight Butterfly",
@@ -1820,7 +1820,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-700",
+    "OTHER-700",
     {
       id: 700,
       name: "Soul of Quelaag",
@@ -1837,7 +1837,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-703",
+    "OTHER-703",
     {
       id: 703,
       name: "Core of an Iron Golem",
@@ -1854,7 +1854,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-704",
+    "OTHER-704",
     {
       id: 704,
       name: "Soul of Ornstein",
@@ -1871,7 +1871,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-706",
+    "OTHER-706",
     {
       id: 706,
       name: "Soul of Smough",
@@ -1888,7 +1888,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-701",
+    "OTHER-701",
     {
       id: 701,
       name: "Soul of Sif",
@@ -1905,7 +1905,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-708",
+    "OTHER-708",
     {
       id: 708,
       name: "Soul of Gwyndolin",
@@ -1922,7 +1922,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-707",
+    "OTHER-707",
     {
       id: 707,
       name: "Soul of Priscilla",
@@ -1939,7 +1939,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-709",
+    "OTHER-709",
     {
       id: 709,
       name: "Guardian Soul",
@@ -1956,7 +1956,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-710",
+    "OTHER-710",
     {
       id: 710,
       name: "Soul of Artorias",
@@ -1973,7 +1973,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-711",
+    "OTHER-711",
     {
       id: 711,
       name: "Soul of Manus",
@@ -1990,7 +1990,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-702",
+    "OTHER-702",
     {
       id: 702,
       name: "Soul of Gwyn, Lord of Cinder",
@@ -2007,7 +2007,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-500",
+    "OTHER-500",
     {
       id: 500,
       name: "Humanity",
@@ -2117,7 +2117,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-501",
+    "OTHER-501",
     {
       id: 501,
       name: "Twin Humanities",
@@ -2191,7 +2191,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-376",
+    "OTHER-376",
     {
       id: 376,
       name: "Pendant",
@@ -2220,7 +2220,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-220",
+    "OTHER-220",
     {
       id: 220,
       name: "Silver Pendant",
@@ -2238,7 +2238,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-380",
+    "OTHER-380",
     {
       id: 380,
       name: "Rubbish",
@@ -2269,7 +2269,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-381",
+    "OTHER-381",
     {
       id: 381,
       name: "Copper Coin",
@@ -2286,7 +2286,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-382",
+    "OTHER-382",
     {
       id: 382,
       name: "Silver Coin",
@@ -2303,7 +2303,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-383",
+    "OTHER-383",
     {
       id: 383,
       name: "Gold Coin",
@@ -2332,7 +2332,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-117",
+    "OTHER-117",
     {
       id: 117,
       name: "Darksign",
@@ -2349,7 +2349,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "item-385",
+    "OTHER-385",
     {
       id: 385,
       name: "Dried Finger",
@@ -3219,7 +3219,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2510",
+    "key_OTHER-2510",
     {
       id: 2510,
       name: "Lordvessel",
@@ -3236,7 +3236,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2500",
+    "key_OTHER-2500",
     {
       id: 2500,
       name: "Lord Soul",
@@ -3253,7 +3253,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2501",
+    "key_OTHER-2501",
     {
       id: 2501,
       name: "Lord Soul",
@@ -3270,7 +3270,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2502",
+    "key_OTHER-2502",
     {
       id: 2502,
       name: "Bequeathed Lord Soul Shard",
@@ -3287,7 +3287,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2503",
+    "key_OTHER-2503",
     {
       id: 2503,
       name: "Bequeathed Lord Soul Shard",
@@ -3304,7 +3304,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-800",
+    "key_OTHER-800",
     {
       id: 800,
       name: "Large Ember",
@@ -3321,7 +3321,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-801",
+    "key_OTHER-801",
     {
       id: 801,
       name: "Very Large Ember",
@@ -3338,7 +3338,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-802",
+    "key_OTHER-802",
     {
       id: 802,
       name: "Crystal Ember",
@@ -3355,7 +3355,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-812",
+    "key_OTHER-812",
     {
       id: 812,
       name: "Large Flame Ember",
@@ -3373,7 +3373,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-813",
+    "key_OTHER-813",
     {
       id: 813,
       name: "Chaos Flame Ember",
@@ -3390,7 +3390,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-806",
+    "key_OTHER-806",
     {
       id: 806,
       name: "Large Magic Ember",
@@ -3407,7 +3407,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-807",
+    "key_OTHER-807",
     {
       id: 807,
       name: "Enchanted Ember",
@@ -3425,7 +3425,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-808",
+    "key_OTHER-808",
     {
       id: 808,
       name: "Divine Ember",
@@ -3443,7 +3443,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-809",
+    "key_OTHER-809",
     {
       id: 809,
       name: "Large Divine Ember",
@@ -3460,7 +3460,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-810",
+    "key_OTHER-810",
     {
       id: 810,
       name: "Dark Ember",
@@ -3477,7 +3477,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2602",
+    "key_OTHER-2602",
     {
       id: 2602,
       name: "Repairbox",
@@ -3500,7 +3500,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2600",
+    "key_OTHER-2600",
     {
       id: 2600,
       name: "Weapon Smithbox",
@@ -3517,7 +3517,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2601",
+    "key_OTHER-2601",
     {
       id: 2601,
       name: "Armor Smithbox",
@@ -3534,7 +3534,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2608",
+    "key_OTHER-2608",
     {
       id: 2608,
       name: "Bottomless Box",
@@ -3563,7 +3563,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2607",
+    "key_OTHER-2607",
     {
       id: 2607,
       name: "Rite of Kindling",
@@ -3580,7 +3580,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-384",
+    "key_OTHER-384",
     {
       id: 384,
       name: "Peculiar Doll",
@@ -3597,7 +3597,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2520",
+    "key_OTHER-2520",
     {
       id: 2520,
       name: "Broken Pendant",
@@ -3614,7 +3614,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2100",
+    "key_OTHER-2100",
     {
       id: 2100,
       name: "Master Key",
@@ -3647,7 +3647,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2002",
+    "key_OTHER-2002",
     {
       id: 2002,
       name: "Crest of Artorias",
@@ -3668,7 +3668,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2010",
+    "key_OTHER-2010",
     {
       id: 2010,
       name: "Dungeon Cell Key",
@@ -3685,7 +3685,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2012",
+    "key_OTHER-2012",
     {
       id: 2012,
       name: "Undead Asylum F2 East Key",
@@ -3706,7 +3706,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2016",
+    "key_OTHER-2016",
     {
       id: 2016,
       name: "Undead Asylum F2 West Key",
@@ -3723,7 +3723,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2011",
+    "key_OTHER-2011",
     {
       id: 2011,
       name: "Big Pilgrim's Key",
@@ -3749,7 +3749,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2021",
+    "key_OTHER-2021",
     {
       id: 2021,
       name: "Residence Key",
@@ -3770,7 +3770,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2017",
+    "key_OTHER-2017",
     {
       id: 2017,
       name: "Mystery Key",
@@ -3787,7 +3787,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2001",
+    "key_OTHER-2001",
     {
       id: 2001,
       name: "Basement Key",
@@ -3805,7 +3805,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2014",
+    "key_OTHER-2014",
     {
       id: 2014,
       name: "Key to Depths",
@@ -3822,7 +3822,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2019",
+    "key_OTHER-2019",
     {
       id: 2019,
       name: "Watchtower Basement Key",
@@ -3840,7 +3840,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2018",
+    "key_OTHER-2018",
     {
       id: 2018,
       name: "Sewer Chamber Key",
@@ -3857,7 +3857,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2007",
+    "key_OTHER-2007",
     {
       id: 2007,
       name: "Blighttown Key",
@@ -3874,7 +3874,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2008",
+    "key_OTHER-2008",
     {
       id: 2008,
       name: "Key to New Londo Ruins",
@@ -3891,7 +3891,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2013",
+    "key_OTHER-2013",
     {
       id: 2013,
       name: "Key to the Seal",
@@ -3912,7 +3912,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2003",
+    "key_OTHER-2003",
     {
       id: 2003,
       name: "Cage Key",
@@ -3929,7 +3929,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2004",
+    "key_OTHER-2004",
     {
       id: 2004,
       name: "Archive Tower Cell Key",
@@ -3946,7 +3946,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2020",
+    "key_OTHER-2020",
     {
       id: 2020,
       name: "Archive Tower Extra Key",
@@ -3963,7 +3963,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2006",
+    "key_OTHER-2006",
     {
       id: 2006,
       name: "Archive Tower Giant Cell Key",
@@ -3980,7 +3980,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2005",
+    "key_OTHER-2005",
     {
       id: 2005,
       name: "Archive Tower Giant Door Key",
@@ -3997,7 +3997,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2009",
+    "key_OTHER-2009",
     {
       id: 2009,
       name: "Annex Key",
@@ -4014,7 +4014,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "key_item-2022",
+    "key_OTHER-2022",
     {
       id: 2022,
       name: "Crest Key",
@@ -4031,7 +4031,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3000",
+    "OTHER-3000",
     {
       id: 3000,
       name: "Sorcery:Soul Arrow",
@@ -4070,7 +4070,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3010",
+    "OTHER-3010",
     {
       id: 3010,
       name: "Sorcery:Great Soul Arrow",
@@ -4097,7 +4097,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3020",
+    "OTHER-3020",
     {
       id: 3020,
       name: "Sorcery:Heavy Soul Arrow",
@@ -4130,7 +4130,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3030",
+    "OTHER-3030",
     {
       id: 3030,
       name: "Sorcery:Great Heavy Soul Arrow",
@@ -4157,7 +4157,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3040",
+    "OTHER-3040",
     {
       id: 3040,
       name: "Sorcery:Homing Soulmass",
@@ -4184,7 +4184,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3050",
+    "OTHER-3050",
     {
       id: 3050,
       name: "Sorcery:Homing Crystal Soulmass",
@@ -4201,7 +4201,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3060",
+    "OTHER-3060",
     {
       id: 3060,
       name: "Sorcery:Soul Spear",
@@ -4228,7 +4228,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3070",
+    "OTHER-3070",
     {
       id: 3070,
       name: "Sorcery:Crystal Soul Spear",
@@ -4245,7 +4245,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3700",
+    "OTHER-3700",
     {
       id: 3700,
       name: "Sorcery:White Dragon Breath",
@@ -4262,7 +4262,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3100",
+    "OTHER-3100",
     {
       id: 3100,
       name: "Sorcery:Magic Weapon",
@@ -4289,7 +4289,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3110",
+    "OTHER-3110",
     {
       id: 3110,
       name: "Sorcery:Great Magic Weapon",
@@ -4306,7 +4306,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3120",
+    "OTHER-3120",
     {
       id: 3120,
       name: "Sorcery:Crystal Magic Weapon",
@@ -4323,7 +4323,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3300",
+    "OTHER-3300",
     {
       id: 3300,
       name: "Sorcery:Magic Shield",
@@ -4350,7 +4350,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3310",
+    "OTHER-3310",
     {
       id: 3310,
       name: "Sorcery:Strong Magic Shield",
@@ -4367,7 +4367,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3520",
+    "OTHER-3520",
     {
       id: 3520,
       name: "Sorcery:Aural Decoy",
@@ -4384,7 +4384,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3510",
+    "OTHER-3510",
     {
       id: 3510,
       name: "Sorcery:Hush",
@@ -4412,7 +4412,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3540",
+    "OTHER-3540",
     {
       id: 3540,
       name: "Sorcery:Fall Control",
@@ -4429,7 +4429,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3400",
+    "OTHER-3400",
     {
       id: 3400,
       name: "Sorcery:Hidden Weapon",
@@ -4452,7 +4452,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3410",
+    "OTHER-3410",
     {
       id: 3410,
       name: "Sorcery:Hidden Body",
@@ -4475,7 +4475,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3530",
+    "OTHER-3530",
     {
       id: 3530,
       name: "Sorcery:Repair",
@@ -4498,7 +4498,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3500",
+    "OTHER-3500",
     {
       id: 3500,
       name: "Sorcery:Cast Light",
@@ -4521,7 +4521,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3550",
+    "OTHER-3550",
     {
       id: 3550,
       name: "Sorcery:Chameleon",
@@ -4544,7 +4544,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3610",
+    "OTHER-3610",
     {
       id: 3610,
       name: "Sorcery:Remedy",
@@ -4561,7 +4561,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3600",
+    "OTHER-3600",
     {
       id: 3600,
       name: "Sorcery:Resist Curse",
@@ -4578,7 +4578,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3710",
+    "OTHER-3710",
     {
       id: 3710,
       name: "Sorcery:Dark Orb",
@@ -4595,7 +4595,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3720",
+    "OTHER-3720",
     {
       id: 3720,
       name: "Sorcery:Dark Bead",
@@ -4612,7 +4612,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3730",
+    "OTHER-3730",
     {
       id: 3730,
       name: "Sorcery:Dark Fog",
@@ -4630,7 +4630,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-3740",
+    "OTHER-3740",
     {
       id: 3740,
       name: "Sorcery:Pursuers",
@@ -4647,7 +4647,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4000",
+    "OTHER-4000",
     {
       id: 4000,
       name: "Pyromancy:Fireball",
@@ -4676,7 +4676,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4010",
+    "OTHER-4010",
     {
       id: 4010,
       name: "Pyromancy:Fire Orb",
@@ -4699,7 +4699,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4020",
+    "OTHER-4020",
     {
       id: 4020,
       name: "Pyromancy:Great Fireball",
@@ -4716,7 +4716,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4500",
+    "OTHER-4500",
     {
       id: 4500,
       name: "Pyromancy:Great Chaos Fireball",
@@ -4733,7 +4733,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4030",
+    "OTHER-4030",
     {
       id: 4030,
       name: "Pyromancy:Firestorm",
@@ -4750,7 +4750,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4040",
+    "OTHER-4040",
     {
       id: 4040,
       name: "Pyromancy:Fire Tempest",
@@ -4771,7 +4771,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4510",
+    "OTHER-4510",
     {
       id: 4510,
       name: "Pyromancy:Chaos Storm",
@@ -4788,7 +4788,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4100",
+    "OTHER-4100",
     {
       id: 4100,
       name: "Pyromancy:Combustion",
@@ -4811,7 +4811,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4110",
+    "OTHER-4110",
     {
       id: 4110,
       name: "Pyromancy:Great Combustion",
@@ -4828,7 +4828,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4050",
+    "OTHER-4050",
     {
       id: 4050,
       name: "Pyromancy:Fire Surge",
@@ -4845,7 +4845,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4060",
+    "OTHER-4060",
     {
       id: 4060,
       name: "Pyromancy:Fire Whip",
@@ -4862,7 +4862,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4520",
+    "OTHER-4520",
     {
       id: 4520,
       name: "Pyromancy:Chaos Fire Whip",
@@ -4879,7 +4879,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4200",
+    "OTHER-4200",
     {
       id: 4200,
       name: "Pyromancy:Poison Mist",
@@ -4902,7 +4902,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4210",
+    "OTHER-4210",
     {
       id: 4210,
       name: "Pyromancy:Toxic Mist",
@@ -4919,7 +4919,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4220",
+    "OTHER-4220",
     {
       id: 4220,
       name: "Pyromancy:Acid Surge",
@@ -4936,7 +4936,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4310",
+    "OTHER-4310",
     {
       id: 4310,
       name: "Pyromancy:Flash Sweat",
@@ -4953,7 +4953,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4300",
+    "OTHER-4300",
     {
       id: 4300,
       name: "Pyromancy:Iron Flesh",
@@ -4970,7 +4970,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4400",
+    "OTHER-4400",
     {
       id: 4400,
       name: "Pyromancy:Power Within",
@@ -4987,7 +4987,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4360",
+    "OTHER-4360",
     {
       id: 4360,
       name: "Pyromancy:Undead Rapport",
@@ -5004,7 +5004,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-4530",
+    "OTHER-4530",
     {
       id: 4530,
       name: "Pyromancy:Black Flame",
@@ -5021,7 +5021,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5000",
+    "OTHER-5000",
     {
       id: 5000,
       name: "Miracle:Heal",
@@ -5054,7 +5054,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5020",
+    "OTHER-5020",
     {
       id: 5020,
       name: "Miracle:Great Heal Excerpt",
@@ -5081,7 +5081,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5010",
+    "OTHER-5010",
     {
       id: 5010,
       name: "Miracle:Great Heal",
@@ -5098,7 +5098,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5030",
+    "OTHER-5030",
     {
       id: 5030,
       name: "Miracle:Soothing Sunlight",
@@ -5115,7 +5115,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5040",
+    "OTHER-5040",
     {
       id: 5040,
       name: "Miracle:Replenishment",
@@ -5132,7 +5132,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5050",
+    "OTHER-5050",
     {
       id: 5050,
       name: "Miracle:Bountiful Sunlight",
@@ -5149,7 +5149,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5300",
+    "OTHER-5300",
     {
       id: 5300,
       name: "Miracle:Force",
@@ -5172,7 +5172,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5310",
+    "OTHER-5310",
     {
       id: 5310,
       name: "Miracle:Wrath of the Gods",
@@ -5189,7 +5189,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5320",
+    "OTHER-5320",
     {
       id: 5320,
       name: "Miracle:Emit Force",
@@ -5206,7 +5206,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5600",
+    "OTHER-5600",
     {
       id: 5600,
       name: "Miracle:Magic Barrier",
@@ -5223,7 +5223,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5610",
+    "OTHER-5610",
     {
       id: 5610,
       name: "Miracle:Great Magic Barrier",
@@ -5240,7 +5240,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5210",
+    "OTHER-5210",
     {
       id: 5210,
       name: "Miracle:Homeward",
@@ -5263,7 +5263,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5400",
+    "OTHER-5400",
     {
       id: 5400,
       name: "Miracle:Seek Guidance",
@@ -5286,7 +5286,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5700",
+    "OTHER-5700",
     {
       id: 5700,
       name: "Miracle:Karmic Justice",
@@ -5303,7 +5303,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5810",
+    "OTHER-5810",
     {
       id: 5810,
       name: "Miracle:Vow of Silence",
@@ -5320,7 +5320,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5800",
+    "OTHER-5800",
     {
       id: 5800,
       name: "Miracle:Tranquil Walk of Peace",
@@ -5338,7 +5338,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5500",
+    "OTHER-5500",
     {
       id: 5500,
       name: "Miracle:Lightning Spear",
@@ -5355,7 +5355,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5510",
+    "OTHER-5510",
     {
       id: 5510,
       name: "Miracle:Great Lightning Spear",
@@ -5372,7 +5372,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5520",
+    "OTHER-5520",
     {
       id: 5520,
       name: "Miracle:Sunlight Spear",
@@ -5390,7 +5390,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5900",
+    "OTHER-5900",
     {
       id: 5900,
       name: "Miracle:Sunlight Blade",
@@ -5407,7 +5407,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5910",
+    "OTHER-5910",
     {
       id: 5910,
       name: "Miracle:Darkmoon Blade",
@@ -5424,7 +5424,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5100",
+    "OTHER-5100",
     {
       id: 5100,
       name: "Miracle:Gravelord Sword Dance",
@@ -5441,7 +5441,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "magic-5110",
+    "OTHER-5110",
     {
       id: 5110,
       name: "Miracle:Gravelord Greatsword Dance",
@@ -5458,7 +5458,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-100000",
+    "WEAPONRY-100000",
     {
       id: 100000,
       name: "Dagger",
@@ -5481,7 +5481,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-101000",
+    "WEAPONRY-101000",
     {
       id: 101000,
       name: "Parrying Dagger",
@@ -5498,7 +5498,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-103000",
+    "WEAPONRY-103000",
     {
       id: 103000,
       name: "Bandit's Knife",
@@ -5521,7 +5521,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-102000",
+    "WEAPONRY-102000",
     {
       id: 102000,
       name: "Ghost Blade",
@@ -5538,7 +5538,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9011000",
+    "WEAPONRY-9011000",
     {
       id: 9011000,
       name: "Dark Silver Tracer",
@@ -5559,7 +5559,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-104000",
+    "WEAPONRY-104000",
     {
       id: 104000,
       name: "Priscilla's Dagger",
@@ -5576,7 +5576,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-200000",
+    "WEAPONRY-200000",
     {
       id: 200000,
       name: "Shortsword",
@@ -5603,7 +5603,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-201000",
+    "WEAPONRY-201000",
     {
       id: 201000,
       name: "Longsword",
@@ -5642,7 +5642,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-202000",
+    "WEAPONRY-202000",
     {
       id: 202000,
       name: "Broadsword",
@@ -5665,7 +5665,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-204000",
+    "WEAPONRY-204000",
     {
       id: 204000,
       name: "Balder Side Sword",
@@ -5688,7 +5688,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-206000",
+    "WEAPONRY-206000",
     {
       id: 206000,
       name: "Sunlight Straight Sword",
@@ -5723,7 +5723,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-210000",
+    "WEAPONRY-210000",
     {
       id: 210000,
       name: "Darksword",
@@ -5740,7 +5740,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-207000",
+    "WEAPONRY-207000",
     {
       id: 207000,
       name: "Barbed Straight Sword",
@@ -5769,7 +5769,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-205000",
+    "WEAPONRY-205000",
     {
       id: 205000,
       name: "Crystal Straight Sword",
@@ -5798,7 +5798,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-208000",
+    "WEAPONRY-208000",
     {
       id: 208000,
       name: "Silv. Knight Str. Sword",
@@ -5815,7 +5815,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-209000",
+    "WEAPONRY-209000",
     {
       id: 209000,
       name: "Astora's Straight Sword",
@@ -5832,7 +5832,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-211000",
+    "WEAPONRY-211000",
     {
       id: 211000,
       name: "Drake Sword",
@@ -5849,7 +5849,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-203000",
+    "WEAPONRY-203000",
     {
       id: 203000,
       name: "Broken Straight Sword",
@@ -5878,7 +5878,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-212000",
+    "WEAPONRY-212000",
     {
       id: 212000,
       name: "Straight Sword Hilt",
@@ -5895,7 +5895,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-300000",
+    "WEAPONRY-300000",
     {
       id: 300000,
       name: "Bastard Sword",
@@ -5912,7 +5912,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-301000",
+    "WEAPONRY-301000",
     {
       id: 301000,
       name: "Claymore",
@@ -5929,7 +5929,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-302000",
+    "WEAPONRY-302000",
     {
       id: 302000,
       name: "Man-serpent Greatsword",
@@ -5952,7 +5952,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-303000",
+    "WEAPONRY-303000",
     {
       id: 303000,
       name: "Flamberge",
@@ -5981,7 +5981,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-304000",
+    "WEAPONRY-304000",
     {
       id: 304000,
       name: "Crystal Greatsword",
@@ -6004,7 +6004,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-310000",
+    "WEAPONRY-310000",
     {
       id: 310000,
       name: "Black Knight Sword",
@@ -6033,7 +6033,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-306000",
+    "WEAPONRY-306000",
     {
       id: 306000,
       name: "Stone Greatsword",
@@ -6056,7 +6056,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-311000",
+    "WEAPONRY-311000",
     {
       id: 311000,
       name: "Greatsword of Artorias (Cursed)",
@@ -6077,7 +6077,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-307000",
+    "WEAPONRY-307000",
     {
       id: 307000,
       name: "Greatsword of Artorias",
@@ -6094,7 +6094,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9012000",
+    "WEAPONRY-9012000",
     {
       id: 9012000,
       name: "Abyss Greatsword",
@@ -6111,7 +6111,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-314000",
+    "WEAPONRY-314000",
     {
       id: 314000,
       name: "Great Lord Greatsword",
@@ -6128,7 +6128,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-309000",
+    "WEAPONRY-309000",
     {
       id: 309000,
       name: "Moonlight Greatsword",
@@ -6145,7 +6145,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9020000",
+    "WEAPONRY-9020000",
     {
       id: 9020000,
       name: "Obsidian Greatsword",
@@ -6162,7 +6162,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-351000",
+    "WEAPONRY-351000",
     {
       id: 351000,
       name: "Greatsword",
@@ -6197,7 +6197,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-350000",
+    "WEAPONRY-350000",
     {
       id: 350000,
       name: "Zweihander",
@@ -6214,7 +6214,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-352000",
+    "WEAPONRY-352000",
     {
       id: 352000,
       name: "Demon Great Machete",
@@ -6243,7 +6243,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-355000",
+    "WEAPONRY-355000",
     {
       id: 355000,
       name: "Black Knight Greatsword",
@@ -6266,7 +6266,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-354000",
+    "WEAPONRY-354000",
     {
       id: 354000,
       name: "Dragon Greatsword",
@@ -6283,7 +6283,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-400000",
+    "WEAPONRY-400000",
     {
       id: 400000,
       name: "Scimitar",
@@ -6318,7 +6318,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-401000",
+    "WEAPONRY-401000",
     {
       id: 401000,
       name: "Falchion",
@@ -6354,7 +6354,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-402000",
+    "WEAPONRY-402000",
     {
       id: 402000,
       name: "Shotel",
@@ -6377,7 +6377,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-405000",
+    "WEAPONRY-405000",
     {
       id: 405000,
       name: "Painting Guardian Sword",
@@ -6394,7 +6394,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-403000",
+    "WEAPONRY-403000",
     {
       id: 403000,
       name: "Jagged Ghost Blade",
@@ -6411,7 +6411,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9010000",
+    "WEAPONRY-9010000",
     {
       id: 9010000,
       name: "Gold Tracer",
@@ -6432,7 +6432,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-406000",
+    "WEAPONRY-406000",
     {
       id: 406000,
       name: "Quelaag's Furysword",
@@ -6449,7 +6449,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-451000",
+    "WEAPONRY-451000",
     {
       id: 451000,
       name: "Murakumo",
@@ -6490,7 +6490,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-450000",
+    "WEAPONRY-450000",
     {
       id: 450000,
       name: "Server",
@@ -6507,7 +6507,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-453000",
+    "WEAPONRY-453000",
     {
       id: 453000,
       name: "Gravelord Sword",
@@ -6524,7 +6524,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-500000",
+    "WEAPONRY-500000",
     {
       id: 500000,
       name: "Uchigatana",
@@ -6547,7 +6547,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-502000",
+    "WEAPONRY-502000",
     {
       id: 502000,
       name: "Iaito",
@@ -6565,7 +6565,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-501000",
+    "WEAPONRY-501000",
     {
       id: 501000,
       name: "Washing Pole",
@@ -6582,7 +6582,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-503000",
+    "WEAPONRY-503000",
     {
       id: 503000,
       name: "Chaos Blade",
@@ -6599,7 +6599,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-600000",
+    "WEAPONRY-600000",
     {
       id: 600000,
       name: "Mail Breaker",
@@ -6616,7 +6616,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-601000",
+    "WEAPONRY-601000",
     {
       id: 601000,
       name: "Rapier",
@@ -6645,7 +6645,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-602000",
+    "WEAPONRY-602000",
     {
       id: 602000,
       name: "Estoc",
@@ -6662,7 +6662,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-604000",
+    "WEAPONRY-604000",
     {
       id: 604000,
       name: "Ricard's Rapier",
@@ -6679,7 +6679,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-603000",
+    "WEAPONRY-603000",
     {
       id: 603000,
       name: "Velka's Rapier",
@@ -6696,7 +6696,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-700000",
+    "WEAPONRY-700000",
     {
       id: 700000,
       name: "Hand Axe",
@@ -6719,7 +6719,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-701000",
+    "WEAPONRY-701000",
     {
       id: 701000,
       name: "Battle Axe",
@@ -6748,7 +6748,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-703000",
+    "WEAPONRY-703000",
     {
       id: 703000,
       name: "Butcher Knife",
@@ -6765,7 +6765,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-705000",
+    "WEAPONRY-705000",
     {
       id: 705000,
       name: "Gargoyle Tail Axe",
@@ -6788,7 +6788,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-702000",
+    "WEAPONRY-702000",
     {
       id: 702000,
       name: "Crescent Axe",
@@ -6821,7 +6821,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-704000",
+    "WEAPONRY-704000",
     {
       id: 704000,
       name: "Golem Axe",
@@ -6838,7 +6838,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-750000",
+    "WEAPONRY-750000",
     {
       id: 750000,
       name: "Greataxe",
@@ -6877,7 +6877,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-751000",
+    "WEAPONRY-751000",
     {
       id: 751000,
       name: "Demon's Greataxe",
@@ -6906,7 +6906,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9015000",
+    "WEAPONRY-9015000",
     {
       id: 9015000,
       name: "Stone Greataxe",
@@ -6923,7 +6923,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-753000",
+    "WEAPONRY-753000",
     {
       id: 753000,
       name: "Black Knight Greataxe",
@@ -6940,7 +6940,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-752000",
+    "WEAPONRY-752000",
     {
       id: 752000,
       name: "Dragon King Greataxe",
@@ -6957,7 +6957,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-800000",
+    "WEAPONRY-800000",
     {
       id: 800000,
       name: "Club",
@@ -6980,7 +6980,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-809000",
+    "WEAPONRY-809000",
     {
       id: 809000,
       name: "Reinforced Club",
@@ -6997,7 +6997,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-811000",
+    "WEAPONRY-811000",
     {
       id: 811000,
       name: "Blacksmith Giant Hammer",
@@ -7014,7 +7014,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-801000",
+    "WEAPONRY-801000",
     {
       id: 801000,
       name: "Mace",
@@ -7043,7 +7043,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-802000",
+    "WEAPONRY-802000",
     {
       id: 802000,
       name: "Morning Star",
@@ -7060,7 +7060,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-803000",
+    "WEAPONRY-803000",
     {
       id: 803000,
       name: "Warpick",
@@ -7077,7 +7077,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-804000",
+    "WEAPONRY-804000",
     {
       id: 804000,
       name: "Pickaxe",
@@ -7094,7 +7094,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-810000",
+    "WEAPONRY-810000",
     {
       id: 810000,
       name: "Blacksmith Hammer",
@@ -7111,7 +7111,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-812000",
+    "WEAPONRY-812000",
     {
       id: 812000,
       name: "Hammer of Vamos",
@@ -7128,7 +7128,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-855000",
+    "WEAPONRY-855000",
     {
       id: 855000,
       name: "Large Club",
@@ -7145,7 +7145,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-850000",
+    "WEAPONRY-850000",
     {
       id: 850000,
       name: "Great Club",
@@ -7163,7 +7163,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-852000",
+    "WEAPONRY-852000",
     {
       id: 852000,
       name: "Demon's Great Hammer",
@@ -7184,7 +7184,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-851000",
+    "WEAPONRY-851000",
     {
       id: 851000,
       name: "Grant",
@@ -7201,7 +7201,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-854000",
+    "WEAPONRY-854000",
     {
       id: 854000,
       name: "Dragon Tooth",
@@ -7218,7 +7218,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-856000",
+    "WEAPONRY-856000",
     {
       id: 856000,
       name: "Smough's Hammer",
@@ -7235,7 +7235,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1000000",
+    "WEAPONRY-1000000",
     {
       id: 1000000,
       name: "Spear",
@@ -7264,7 +7264,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1001000",
+    "WEAPONRY-1001000",
     {
       id: 1001000,
       name: "Winged Spear",
@@ -7281,7 +7281,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1002000",
+    "WEAPONRY-1002000",
     {
       id: 1002000,
       name: "Partizan",
@@ -7298,7 +7298,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9016000",
+    "WEAPONRY-9016000",
     {
       id: 9016000,
       name: "Four-Pronged Prow",
@@ -7315,7 +7315,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1050000",
+    "WEAPONRY-1050000",
     {
       id: 1050000,
       name: "Pike",
@@ -7332,7 +7332,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1004000",
+    "WEAPONRY-1004000",
     {
       id: 1004000,
       name: "Channeler's Trident",
@@ -7361,7 +7361,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1003000",
+    "WEAPONRY-1003000",
     {
       id: 1003000,
       name: "Demon's Spear",
@@ -7384,7 +7384,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1006000",
+    "WEAPONRY-1006000",
     {
       id: 1006000,
       name: "Silver Knight Spear",
@@ -7401,7 +7401,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1052000",
+    "WEAPONRY-1052000",
     {
       id: 1052000,
       name: "Moonlight Butterfly Horn",
@@ -7418,7 +7418,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1051000",
+    "WEAPONRY-1051000",
     {
       id: 1051000,
       name: "Dragonslayer Spear",
@@ -7435,7 +7435,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1100000",
+    "WEAPONRY-1100000",
     {
       id: 1100000,
       name: "Halberd",
@@ -7458,7 +7458,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1106000",
+    "WEAPONRY-1106000",
     {
       id: 1106000,
       name: "Lucerne ",
@@ -7475,7 +7475,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1107000",
+    "WEAPONRY-1107000",
     {
       id: 1107000,
       name: "Scythe",
@@ -7492,7 +7492,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1103000",
+    "WEAPONRY-1103000",
     {
       id: 1103000,
       name: "Gargoyle's Halberd",
@@ -7515,7 +7515,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1101000",
+    "WEAPONRY-1101000",
     {
       id: 1101000,
       name: "Giant's Halberd",
@@ -7540,7 +7540,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1102000",
+    "WEAPONRY-1102000",
     {
       id: 1102000,
       name: "Titanite Catch Pole",
@@ -7581,7 +7581,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1105000",
+    "WEAPONRY-1105000",
     {
       id: 1105000,
       name: "Black Knight Halberd",
@@ -7604,7 +7604,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1150000",
+    "WEAPONRY-1150000",
     {
       id: 1150000,
       name: "Great Scythe",
@@ -7622,7 +7622,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1151000",
+    "WEAPONRY-1151000",
     {
       id: 1151000,
       name: "Lifehunt Scythe",
@@ -7639,7 +7639,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1600000",
+    "WEAPONRY-1600000",
     {
       id: 1600000,
       name: "Whip",
@@ -7656,7 +7656,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1601000",
+    "WEAPONRY-1601000",
     {
       id: 1601000,
       name: "Notched Whip",
@@ -7673,7 +7673,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9019000",
+    "WEAPONRY-9019000",
     {
       id: 9019000,
       name: "Guardian Tail",
@@ -7690,7 +7690,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-901000",
+    "WEAPONRY-901000",
     {
       id: 901000,
       name: "Caestus",
@@ -7707,7 +7707,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-902000",
+    "WEAPONRY-902000",
     {
       id: 902000,
       name: "Claw",
@@ -7724,7 +7724,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-903000",
+    "WEAPONRY-903000",
     {
       id: 903000,
       name: "Dragon Bone Fist",
@@ -7741,7 +7741,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-904000",
+    "WEAPONRY-904000",
     {
       id: 904000,
       name: "Dark Hand",
@@ -7764,7 +7764,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1200000",
+    "WEAPONRY-1200000",
     {
       id: 1200000,
       name: "Short Bow",
@@ -7787,7 +7787,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1204000",
+    "WEAPONRY-1204000",
     {
       id: 1204000,
       name: "Composite Bow",
@@ -7804,7 +7804,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1201000",
+    "WEAPONRY-1201000",
     {
       id: 1201000,
       name: "Longbow",
@@ -7833,7 +7833,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1202000",
+    "WEAPONRY-1202000",
     {
       id: 1202000,
       name: "Black Bow of Pharis",
@@ -7850,7 +7850,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1203000",
+    "WEAPONRY-1203000",
     {
       id: 1203000,
       name: "Dragonslayer Greatbow",
@@ -7868,7 +7868,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9021000",
+    "WEAPONRY-9021000",
     {
       id: 9021000,
       name: "Gough's Great Bow",
@@ -7889,7 +7889,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1205000",
+    "WEAPONRY-1205000",
     {
       id: 1205000,
       name: "Darkmoon Bow",
@@ -7906,7 +7906,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1250000",
+    "WEAPONRY-1250000",
     {
       id: 1250000,
       name: "Light Crossbow",
@@ -7939,7 +7939,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1251000",
+    "WEAPONRY-1251000",
     {
       id: 1251000,
       name: "Heavy Crossbow",
@@ -7956,7 +7956,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1253000",
+    "WEAPONRY-1253000",
     {
       id: 1253000,
       name: "Sniper Crossbow",
@@ -7973,7 +7973,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1252000",
+    "WEAPONRY-1252000",
     {
       id: 1252000,
       name: "Avelyn",
@@ -7990,7 +7990,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1300000",
+    "WEAPONRY-1300000",
     {
       id: 1300000,
       name: "Sorcerer's Catalyst",
@@ -8025,7 +8025,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1301000",
+    "WEAPONRY-1301000",
     {
       id: 1301000,
       name: "Beatrice's Catalyst",
@@ -8042,7 +8042,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1303000",
+    "WEAPONRY-1303000",
     {
       id: 1303000,
       name: "Logan's Catalyst",
@@ -8060,7 +8060,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1305000",
+    "WEAPONRY-1305000",
     {
       id: 1305000,
       name: "Oolacile Ivory Catalyst",
@@ -8083,7 +8083,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9018000",
+    "WEAPONRY-9018000",
     {
       id: 9018000,
       name: "Oolacile Catalyst",
@@ -8100,7 +8100,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1307000",
+    "WEAPONRY-1307000",
     {
       id: 1307000,
       name: "Demon's Catalyst",
@@ -8117,7 +8117,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1308000",
+    "WEAPONRY-1308000",
     {
       id: 1308000,
       name: "Izalith Catalyst",
@@ -8134,7 +8134,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1302000",
+    "WEAPONRY-1302000",
     {
       id: 1302000,
       name: "Tin Banishment Catalyst",
@@ -8151,7 +8151,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1306000",
+    "WEAPONRY-1306000",
     {
       id: 1306000,
       name: "Tin Crystallization Ctlyst.",
@@ -8168,7 +8168,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1304000",
+    "WEAPONRY-1304000",
     {
       id: 1304000,
       name: "Tin Darkmoon Catalyst",
@@ -8185,7 +8185,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9017000",
+    "WEAPONRY-9017000",
     {
       id: 9017000,
       name: "Manus Catalyst",
@@ -8202,7 +8202,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1330000",
+    "WEAPONRY-1330000",
     {
       id: 1330000,
       name: "Pyromancy Flame",
@@ -8231,7 +8231,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1332000",
+    "WEAPONRY-1332000",
     {
       id: 1332000,
       name: "Pyromancy Flame (Ascended)",
@@ -8248,7 +8248,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1360000",
+    "WEAPONRY-1360000",
     {
       id: 1360000,
       name: "Talisman",
@@ -8275,7 +8275,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1361000",
+    "WEAPONRY-1361000",
     {
       id: 1361000,
       name: "Canvas Talisman",
@@ -8298,7 +8298,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1362000",
+    "WEAPONRY-1362000",
     {
       id: 1362000,
       name: "Thorolund Talisman",
@@ -8319,7 +8319,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1363000",
+    "WEAPONRY-1363000",
     {
       id: 1363000,
       name: "Ivory Talisman",
@@ -8354,7 +8354,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1365000",
+    "WEAPONRY-1365000",
     {
       id: 1365000,
       name: "Sunlight Talisman",
@@ -8389,7 +8389,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1366000",
+    "WEAPONRY-1366000",
     {
       id: 1366000,
       name: "Darkmoon Talisman",
@@ -8406,7 +8406,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1367000",
+    "WEAPONRY-1367000",
     {
       id: 1367000,
       name: "Velka's Talisman",
@@ -8423,7 +8423,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1396000",
+    "WEAPONRY-1396000",
     {
       id: 1396000,
       name: "Skull Lantern",
@@ -8446,7 +8446,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1460000",
+    "WEAPONRY-1460000",
     {
       id: 1460000,
       name: "Warrior's Round Shield",
@@ -8463,7 +8463,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1410000",
+    "WEAPONRY-1410000",
     {
       id: 1410000,
       name: "Caduceus Round Shield",
@@ -8480,7 +8480,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9000000",
+    "WEAPONRY-9000000",
     {
       id: 9000000,
       name: "Effigy Shield",
@@ -8497,7 +8497,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1476000",
+    "WEAPONRY-1476000",
     {
       id: 1476000,
       name: "Red and White Round Shield",
@@ -8520,7 +8520,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1406000",
+    "WEAPONRY-1406000",
     {
       id: 1406000,
       name: "Cracked Round Shield",
@@ -8543,7 +8543,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1409000",
+    "WEAPONRY-1409000",
     {
       id: 1409000,
       name: "Plank Shield",
@@ -8566,7 +8566,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1403000",
+    "WEAPONRY-1403000",
     {
       id: 1403000,
       name: "Small Leather Shield",
@@ -8589,7 +8589,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1408000",
+    "WEAPONRY-1408000",
     {
       id: 1408000,
       name: "Leather Shield",
@@ -8612,7 +8612,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1405000",
+    "WEAPONRY-1405000",
     {
       id: 1405000,
       name: "Buckler",
@@ -8641,7 +8641,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1404000",
+    "WEAPONRY-1404000",
     {
       id: 1404000,
       name: "Target Shield",
@@ -8668,7 +8668,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1411000",
+    "WEAPONRY-1411000",
     {
       id: 1411000,
       name: "Crystal Ring Shield",
@@ -8685,7 +8685,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1400000",
+    "WEAPONRY-1400000",
     {
       id: 1400000,
       name: "East-West Shield",
@@ -8708,7 +8708,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1401000",
+    "WEAPONRY-1401000",
     {
       id: 1401000,
       name: "Wooden Shield",
@@ -8726,7 +8726,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1402000",
+    "WEAPONRY-1402000",
     {
       id: 1402000,
       name: "Large Leather Shield",
@@ -8755,7 +8755,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1450000",
+    "WEAPONRY-1450000",
     {
       id: 1450000,
       name: "Heater Shield",
@@ -8778,7 +8778,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1452000",
+    "WEAPONRY-1452000",
     {
       id: 1452000,
       name: "Tower Kite Shield",
@@ -8801,7 +8801,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1477000",
+    "WEAPONRY-1477000",
     {
       id: 1477000,
       name: "Caduceus Kite Shield",
@@ -8824,7 +8824,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1454000",
+    "WEAPONRY-1454000",
     {
       id: 1454000,
       name: "Hollow Soldier Shield",
@@ -8847,7 +8847,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1451000",
+    "WEAPONRY-1451000",
     {
       id: 1451000,
       name: "Knight Shield",
@@ -8871,7 +8871,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9001000",
+    "WEAPONRY-9001000",
     {
       id: 9001000,
       name: "Sanctus",
@@ -8888,7 +8888,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1455000",
+    "WEAPONRY-1455000",
     {
       id: 1455000,
       name: "Balder Shield",
@@ -8915,7 +8915,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1462000",
+    "WEAPONRY-1462000",
     {
       id: 1462000,
       name: "Spider Shield",
@@ -8944,7 +8944,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1453000",
+    "WEAPONRY-1453000",
     {
       id: 1453000,
       name: "Grass Crest Shield",
@@ -8961,7 +8961,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9002000",
+    "WEAPONRY-9002000",
     {
       id: 9002000,
       name: "Bloodshield",
@@ -8978,7 +8978,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1461000",
+    "WEAPONRY-1461000",
     {
       id: 1461000,
       name: "Iron Round Shield",
@@ -9001,7 +9001,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1472000",
+    "WEAPONRY-1472000",
     {
       id: 1472000,
       name: "Sunlight Shield",
@@ -9036,7 +9036,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1475000",
+    "WEAPONRY-1475000",
     {
       id: 1475000,
       name: "Pierce Shield",
@@ -9053,7 +9053,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1470000",
+    "WEAPONRY-1470000",
     {
       id: 1470000,
       name: "Spiked Shield",
@@ -9082,7 +9082,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1478000",
+    "WEAPONRY-1478000",
     {
       id: 1478000,
       name: "Gargoyle's Shield",
@@ -9105,7 +9105,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1471000",
+    "WEAPONRY-1471000",
     {
       id: 1471000,
       name: "Crystal Shield",
@@ -9128,7 +9128,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1456000",
+    "WEAPONRY-1456000",
     {
       id: 1456000,
       name: "Crest Shield",
@@ -9145,7 +9145,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1457000",
+    "WEAPONRY-1457000",
     {
       id: 1457000,
       name: "Dragon Crest Shield",
@@ -9162,7 +9162,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1473000",
+    "WEAPONRY-1473000",
     {
       id: 1473000,
       name: "Silver Knight Shield",
@@ -9179,7 +9179,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1474000",
+    "WEAPONRY-1474000",
     {
       id: 1474000,
       name: "Black Knight Shield",
@@ -9226,7 +9226,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1500000",
+    "WEAPONRY-1500000",
     {
       id: 1500000,
       name: "Eagle Shield",
@@ -9243,7 +9243,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1501000",
+    "WEAPONRY-1501000",
     {
       id: 1501000,
       name: "Tower Shield",
@@ -9276,7 +9276,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9003000",
+    "WEAPONRY-9003000",
     {
       id: 9003000,
       name: "Black Iron Greatshield",
@@ -9293,7 +9293,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1502000",
+    "WEAPONRY-1502000",
     {
       id: 1502000,
       name: "Giant Shield",
@@ -9318,7 +9318,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1506000",
+    "WEAPONRY-1506000",
     {
       id: 1506000,
       name: "Bonewheel Shield",
@@ -9341,7 +9341,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1503000",
+    "WEAPONRY-1503000",
     {
       id: 1503000,
       name: "Stone Greatshield",
@@ -9358,7 +9358,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1505000",
+    "WEAPONRY-1505000",
     {
       id: 1505000,
       name: "Havel's Greatshield",
@@ -9375,7 +9375,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-1507000",
+    "WEAPONRY-1507000",
     {
       id: 1507000,
       name: "Greatshield of Artorias",
@@ -9392,7 +9392,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "weapon-9014000",
+    "WEAPONRY-9014000",
     {
       id: 9014000,
       name: "Cleansing Greatshield",
@@ -9909,7 +9909,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-210000",
+    "ARMOR-210000",
     {
       id: 210000,
       name: "Standard Helm",
@@ -9932,7 +9932,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-211000",
+    "ARMOR-211000",
     {
       id: 211000,
       name: "Hard Leather Armor",
@@ -9955,7 +9955,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-212000",
+    "ARMOR-212000",
     {
       id: 212000,
       name: "Hard Leather Gauntlets",
@@ -9978,7 +9978,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-213000",
+    "ARMOR-213000",
     {
       id: 213000,
       name: "Hard Leather Boots",
@@ -10001,7 +10001,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-170000",
+    "ARMOR-170000",
     {
       id: 170000,
       name: "Chain Helm",
@@ -10024,7 +10024,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-171000",
+    "ARMOR-171000",
     {
       id: 171000,
       name: "Chain Armor",
@@ -10047,7 +10047,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-172000",
+    "ARMOR-172000",
     {
       id: 172000,
       name: "Leather Gauntlets",
@@ -10070,7 +10070,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-173000",
+    "ARMOR-173000",
     {
       id: 173000,
       name: "Chain Leggings",
@@ -10093,7 +10093,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-390000",
+    "ARMOR-390000",
     {
       id: 390000,
       name: "Knight Helm",
@@ -10116,7 +10116,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-391000",
+    "ARMOR-391000",
     {
       id: 391000,
       name: "Knight Armor",
@@ -10139,7 +10139,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-392000",
+    "ARMOR-392000",
     {
       id: 392000,
       name: "Knight Gauntlets",
@@ -10162,7 +10162,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-393000",
+    "ARMOR-393000",
     {
       id: 393000,
       name: "Knight Leggings",
@@ -10185,7 +10185,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-350000",
+    "ARMOR-350000",
     {
       id: 350000,
       name: "Elite Knight Helm",
@@ -10202,7 +10202,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-351000",
+    "ARMOR-351000",
     {
       id: 351000,
       name: "Elite Knight Armor",
@@ -10219,7 +10219,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-352000",
+    "ARMOR-352000",
     {
       id: 352000,
       name: "Elite Knight Gauntlets",
@@ -10236,7 +10236,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-353000",
+    "ARMOR-353000",
     {
       id: 353000,
       name: "Elite Knight Leggings",
@@ -10253,7 +10253,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-360000",
+    "ARMOR-360000",
     {
       id: 360000,
       name: "Wanderer Hood",
@@ -10277,7 +10277,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-361000",
+    "ARMOR-361000",
     {
       id: 361000,
       name: "Wanderer Coat",
@@ -10301,7 +10301,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-362000",
+    "ARMOR-362000",
     {
       id: 362000,
       name: "Wanderer Manchette",
@@ -10325,7 +10325,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-363000",
+    "ARMOR-363000",
     {
       id: 363000,
       name: "Wanderer Boots",
@@ -10349,7 +10349,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-300000",
+    "ARMOR-300000",
     {
       id: 300000,
       name: "Thief Mask",
@@ -10372,7 +10372,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-301000",
+    "ARMOR-301000",
     {
       id: 301000,
       name: "Black Leather Armor",
@@ -10395,7 +10395,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-302000",
+    "ARMOR-302000",
     {
       id: 302000,
       name: "Black Leather Gloves",
@@ -10418,7 +10418,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-303000",
+    "ARMOR-303000",
     {
       id: 303000,
       name: "Black Leather Boots",
@@ -10441,7 +10441,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-50000",
+    "ARMOR-50000",
     {
       id: 50000,
       name: "Brigand Hood",
@@ -10464,7 +10464,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-51000",
+    "ARMOR-51000",
     {
       id: 51000,
       name: "Brigand Armor",
@@ -10487,7 +10487,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-52000",
+    "ARMOR-52000",
     {
       id: 52000,
       name: "Brigand Gauntlets",
@@ -10510,7 +10510,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-53000",
+    "ARMOR-53000",
     {
       id: 53000,
       name: "Brigand Trousers",
@@ -10533,7 +10533,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-241000",
+    "ARMOR-241000",
     {
       id: 241000,
       name: "Leather Armor",
@@ -10556,7 +10556,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-242000",
+    "ARMOR-242000",
     {
       id: 242000,
       name: "Leather Gloves",
@@ -10579,7 +10579,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-243000",
+    "ARMOR-243000",
     {
       id: 243000,
       name: "Leather Boots",
@@ -10602,7 +10602,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-220000",
+    "ARMOR-220000",
     {
       id: 220000,
       name: "Sorcerer Hat",
@@ -10625,7 +10625,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-221000",
+    "ARMOR-221000",
     {
       id: 221000,
       name: "Sorcerer Cloak",
@@ -10648,7 +10648,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-222000",
+    "ARMOR-222000",
     {
       id: 222000,
       name: "Sorcerer Gauntlets",
@@ -10671,7 +10671,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-223000",
+    "ARMOR-223000",
     {
       id: 223000,
       name: "Sorcerer Boots",
@@ -10694,7 +10694,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-640000",
+    "ARMOR-640000",
     {
       id: 640000,
       name: "Black Sorcerer Hat",
@@ -10712,7 +10712,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-641000",
+    "ARMOR-641000",
     {
       id: 641000,
       name: "Black Sorcerer Cloak",
@@ -10730,7 +10730,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-642000",
+    "ARMOR-642000",
     {
       id: 642000,
       name: "Black Sorcerer Gauntlets",
@@ -10748,7 +10748,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-643000",
+    "ARMOR-643000",
     {
       id: 643000,
       name: "Black Sorcerer Boots",
@@ -10766,7 +10766,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-230000",
+    "ARMOR-230000",
     {
       id: 230000,
       name: "Tattered Cloth Hood",
@@ -10789,7 +10789,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-231000",
+    "ARMOR-231000",
     {
       id: 231000,
       name: "Tattered Cloth Robe",
@@ -10812,7 +10812,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-232000",
+    "ARMOR-232000",
     {
       id: 232000,
       name: "Tattered Cloth Manchette",
@@ -10835,7 +10835,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-233000",
+    "ARMOR-233000",
     {
       id: 233000,
       name: "Heavy Boots",
@@ -10858,7 +10858,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-310000",
+    "ARMOR-310000",
     {
       id: 310000,
       name: "Priest's Hat",
@@ -10875,7 +10875,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-311000",
+    "ARMOR-311000",
     {
       id: 311000,
       name: "Holy Robe",
@@ -10898,7 +10898,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-312000",
+    "ARMOR-312000",
     {
       id: 312000,
       name: "Traveling Gloves",
@@ -10921,7 +10921,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-313000",
+    "ARMOR-313000",
     {
       id: 313000,
       name: "Holy Trousers",
@@ -10944,7 +10944,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-180000",
+    "ARMOR-180000",
     {
       id: 180000,
       name: "Cleric Helm",
@@ -10961,7 +10961,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-181000",
+    "ARMOR-181000",
     {
       id: 181000,
       name: "Cleric Armor",
@@ -10978,7 +10978,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-182000",
+    "ARMOR-182000",
     {
       id: 182000,
       name: "Cleric Gauntlets",
@@ -10995,7 +10995,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-183000",
+    "ARMOR-183000",
     {
       id: 183000,
       name: "Cleric Leggings",
@@ -11012,7 +11012,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-160000",
+    "ARMOR-160000",
     {
       id: 160000,
       name: "Iron Helm",
@@ -11047,7 +11047,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-161000",
+    "ARMOR-161000",
     {
       id: 161000,
       name: "Armor of the Sun",
@@ -11082,7 +11082,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-162000",
+    "ARMOR-162000",
     {
       id: 162000,
       name: "Iron Bracelet",
@@ -11117,7 +11117,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-163000",
+    "ARMOR-163000",
     {
       id: 163000,
       name: "Iron Leggings",
@@ -11152,7 +11152,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-70000",
+    "ARMOR-70000",
     {
       id: 70000,
       name: "Black Iron Helm",
@@ -11169,7 +11169,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-71000",
+    "ARMOR-71000",
     {
       id: 71000,
       name: "Black Iron Armor",
@@ -11186,7 +11186,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-72000",
+    "ARMOR-72000",
     {
       id: 72000,
       name: "Black Iron Gauntlets",
@@ -11203,7 +11203,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-73000",
+    "ARMOR-73000",
     {
       id: 73000,
       name: "Black Iron Leggings",
@@ -11220,7 +11220,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-110000",
+    "ARMOR-110000",
     {
       id: 110000,
       name: "Helm of the Wise",
@@ -11243,7 +11243,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-111000",
+    "ARMOR-111000",
     {
       id: 111000,
       name: "Armor of the Glorious",
@@ -11266,7 +11266,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-112000",
+    "ARMOR-112000",
     {
       id: 112000,
       name: "Gauntlets of the Vanquisher",
@@ -11289,7 +11289,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-113000",
+    "ARMOR-113000",
     {
       id: 113000,
       name: "Boots of the Explorer",
@@ -11312,7 +11312,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-10000",
+    "ARMOR-10000",
     {
       id: 10000,
       name: "Catarina Helm",
@@ -11329,7 +11329,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-11000",
+    "ARMOR-11000",
     {
       id: 11000,
       name: "Catarina Armor",
@@ -11346,7 +11346,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-12000",
+    "ARMOR-12000",
     {
       id: 12000,
       name: "Catarina Gauntlets",
@@ -11363,7 +11363,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-13000",
+    "ARMOR-13000",
     {
       id: 13000,
       name: "Catarina Leggings",
@@ -11380,7 +11380,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-130000",
+    "ARMOR-130000",
     {
       id: 130000,
       name: "Crystalline Helm",
@@ -11397,7 +11397,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-131000",
+    "ARMOR-131000",
     {
       id: 131000,
       name: "Crystalline Armor",
@@ -11414,7 +11414,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-132000",
+    "ARMOR-132000",
     {
       id: 132000,
       name: "Crystalline Gauntlets",
@@ -11431,7 +11431,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-133000",
+    "ARMOR-133000",
     {
       id: 133000,
       name: "Crystalline Leggings",
@@ -11448,7 +11448,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-450000",
+    "ARMOR-450000",
     {
       id: 450000,
       name: "Brass Helm",
@@ -11465,7 +11465,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-451000",
+    "ARMOR-451000",
     {
       id: 451000,
       name: "Brass Armor",
@@ -11482,7 +11482,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-452000",
+    "ARMOR-452000",
     {
       id: 452000,
       name: "Brass Gauntlets",
@@ -11499,7 +11499,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-453000",
+    "ARMOR-453000",
     {
       id: 453000,
       name: "Brass Leggings",
@@ -11516,7 +11516,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-240000",
+    "ARMOR-240000",
     {
       id: 240000,
       name: "Pharis's Hat",
@@ -11533,7 +11533,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-380000",
+    "ARMOR-380000",
     {
       id: 380000,
       name: "Big Hat",
@@ -11550,7 +11550,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-381000",
+    "ARMOR-381000",
     {
       id: 381000,
       name: "Sage Robe",
@@ -11567,7 +11567,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-382000",
+    "ARMOR-382000",
     {
       id: 382000,
       name: "Traveling Gloves",
@@ -11584,7 +11584,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-383000",
+    "ARMOR-383000",
     {
       id: 383000,
       name: "Traveling Boots",
@@ -11601,7 +11601,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-140000",
+    "ARMOR-140000",
     {
       id: 140000,
       name: "Mask of the Sealer",
@@ -11618,7 +11618,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-141000",
+    "ARMOR-141000",
     {
       id: 141000,
       name: "Crimson Robe",
@@ -11635,7 +11635,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-142000",
+    "ARMOR-142000",
     {
       id: 142000,
       name: "Crimson Gloves",
@@ -11652,7 +11652,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-143000",
+    "ARMOR-143000",
     {
       id: 143000,
       name: "Crimson Waistcloth",
@@ -11669,7 +11669,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-340000",
+    "ARMOR-340000",
     {
       id: 340000,
       name: "Witch Hat",
@@ -11686,7 +11686,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-341000",
+    "ARMOR-341000",
     {
       id: 341000,
       name: "Witch Cloak",
@@ -11703,7 +11703,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-342000",
+    "ARMOR-342000",
     {
       id: 342000,
       name: "Witch Gloves",
@@ -11720,7 +11720,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-343000",
+    "ARMOR-343000",
     {
       id: 343000,
       name: "Witch Skirt",
@@ -11737,7 +11737,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-330000",
+    "ARMOR-330000",
     {
       id: 330000,
       name: "Crown of Dusk",
@@ -11754,7 +11754,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-331000",
+    "ARMOR-331000",
     {
       id: 331000,
       name: "Antiquated Dress",
@@ -11771,7 +11771,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-332000",
+    "ARMOR-332000",
     {
       id: 332000,
       name: "Antiquated Gloves",
@@ -11788,7 +11788,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-333000",
+    "ARMOR-333000",
     {
       id: 333000,
       name: "Antiquated Skirt",
@@ -11805,7 +11805,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-460000",
+    "ARMOR-460000",
     {
       id: 460000,
       name: "Gold-Hemmed Black Hood",
@@ -11822,7 +11822,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-461000",
+    "ARMOR-461000",
     {
       id: 461000,
       name: "Gold-Hemmed Black Cloak",
@@ -11839,7 +11839,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-462000",
+    "ARMOR-462000",
     {
       id: 462000,
       name: "Gold-Hemmed Black Gloves",
@@ -11856,7 +11856,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-463000",
+    "ARMOR-463000",
     {
       id: 463000,
       name: "Gold-Hemmed Black Skirt",
@@ -11873,7 +11873,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-150000",
+    "ARMOR-150000",
     {
       id: 150000,
       name: "Mask of Velka",
@@ -11890,7 +11890,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-151000",
+    "ARMOR-151000",
     {
       id: 151000,
       name: "Black Cleric Robe",
@@ -11907,7 +11907,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-152000",
+    "ARMOR-152000",
     {
       id: 152000,
       name: "Black Manchette",
@@ -11924,7 +11924,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-153000",
+    "ARMOR-153000",
     {
       id: 153000,
       name: "Black Tights",
@@ -11941,7 +11941,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-700000",
+    "ARMOR-700000",
     {
       id: 700000,
       name: "Snickering Top Hat",
@@ -11958,7 +11958,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-701000",
+    "ARMOR-701000",
     {
       id: 701000,
       name: "Chester's Long Coat",
@@ -11975,7 +11975,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-702000",
+    "ARMOR-702000",
     {
       id: 702000,
       name: "Chester's Gloves",
@@ -11992,7 +11992,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-703000",
+    "ARMOR-703000",
     {
       id: 703000,
       name: "Chester's Trousers",
@@ -12009,7 +12009,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-410000",
+    "ARMOR-410000",
     {
       id: 410000,
       name: "Maiden Hood",
@@ -12026,7 +12026,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-411000",
+    "ARMOR-411000",
     {
       id: 411000,
       name: "Maiden Robe",
@@ -12043,7 +12043,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-412000",
+    "ARMOR-412000",
     {
       id: 412000,
       name: "Maiden Gloves",
@@ -12060,7 +12060,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-413000",
+    "ARMOR-413000",
     {
       id: 413000,
       name: "Maiden Skirt",
@@ -12077,7 +12077,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-400000",
+    "ARMOR-400000",
     {
       id: 400000,
       name: "Dingy Hood",
@@ -12094,7 +12094,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-401000",
+    "ARMOR-401000",
     {
       id: 401000,
       name: "Dingy Robe",
@@ -12111,7 +12111,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-402000",
+    "ARMOR-402000",
     {
       id: 402000,
       name: "Dingy Gloves",
@@ -12128,7 +12128,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-403000",
+    "ARMOR-403000",
     {
       id: 403000,
       name: "Blood-Stained Skirt",
@@ -12145,7 +12145,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-280000",
+    "ARMOR-280000",
     {
       id: 280000,
       name: "Eastern Helm",
@@ -12162,7 +12162,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-281000",
+    "ARMOR-281000",
     {
       id: 281000,
       name: "Eastern Armor",
@@ -12179,7 +12179,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-282000",
+    "ARMOR-282000",
     {
       id: 282000,
       name: "Eastern Gauntlets",
@@ -12196,7 +12196,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-283000",
+    "ARMOR-283000",
     {
       id: 283000,
       name: "Eastern Leggings",
@@ -12213,7 +12213,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-60000",
+    "ARMOR-60000",
     {
       id: 60000,
       name: "Shadow Mask",
@@ -12230,7 +12230,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-61000",
+    "ARMOR-61000",
     {
       id: 61000,
       name: "Shadow Garb",
@@ -12247,7 +12247,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-62000",
+    "ARMOR-62000",
     {
       id: 62000,
       name: "Shadow Gauntlets",
@@ -12264,7 +12264,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-63000",
+    "ARMOR-63000",
     {
       id: 63000,
       name: "Shadow Leggings",
@@ -12281,7 +12281,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-520000",
+    "ARMOR-520000",
     {
       id: 520000,
       name: "Hollow Warrior Helm",
@@ -12298,7 +12298,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-521000",
+    "ARMOR-521000",
     {
       id: 521000,
       name: "Hollow Warrior Armor",
@@ -12315,7 +12315,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-523000",
+    "ARMOR-523000",
     {
       id: 523000,
       name: "Hollow Warrior Waistcloth",
@@ -12332,7 +12332,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-480000",
+    "ARMOR-480000",
     {
       id: 480000,
       name: "Hollow Soldier Helm",
@@ -12361,7 +12361,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-481000",
+    "ARMOR-481000",
     {
       id: 481000,
       name: "Hollow Soldier Armor",
@@ -12390,7 +12390,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-483000",
+    "ARMOR-483000",
     {
       id: 483000,
       name: "Hollow Soldier Waistcloth",
@@ -12419,7 +12419,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-510000",
+    "ARMOR-510000",
     {
       id: 510000,
       name: "Balder Helm",
@@ -12446,7 +12446,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-511000",
+    "ARMOR-511000",
     {
       id: 511000,
       name: "Balder Armor",
@@ -12473,7 +12473,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-512000",
+    "ARMOR-512000",
     {
       id: 512000,
       name: "Balder Gauntlets",
@@ -12500,7 +12500,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-513000",
+    "ARMOR-513000",
     {
       id: 513000,
       name: "Balder Leggings",
@@ -12527,7 +12527,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-490000",
+    "ARMOR-490000",
     {
       id: 490000,
       name: "Steel Helm",
@@ -12560,7 +12560,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-491000",
+    "ARMOR-491000",
     {
       id: 491000,
       name: "Steel Armor",
@@ -12593,7 +12593,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-492000",
+    "ARMOR-492000",
     {
       id: 492000,
       name: "Steel Gauntlets",
@@ -12626,7 +12626,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-493000",
+    "ARMOR-493000",
     {
       id: 493000,
       name: "Steel Leggings",
@@ -12659,7 +12659,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-500000",
+    "ARMOR-500000",
     {
       id: 500000,
       name: "Hollow Thief's Hood",
@@ -12676,7 +12676,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-501000",
+    "ARMOR-501000",
     {
       id: 501000,
       name: "Hollow Thief's Leather Armor",
@@ -12693,7 +12693,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-503000",
+    "ARMOR-503000",
     {
       id: 503000,
       name: "Hollow Thief's Tights",
@@ -12710,7 +12710,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-420000",
+    "ARMOR-420000",
     {
       id: 420000,
       name: "Silver Knight Helm",
@@ -12727,7 +12727,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-421000",
+    "ARMOR-421000",
     {
       id: 421000,
       name: "Silver Knight Armor",
@@ -12744,7 +12744,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-422000",
+    "ARMOR-422000",
     {
       id: 422000,
       name: "Silver Knight Gauntlets",
@@ -12761,7 +12761,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-423000",
+    "ARMOR-423000",
     {
       id: 423000,
       name: "Silver Knight Leggings",
@@ -12778,7 +12778,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-320000",
+    "ARMOR-320000",
     {
       id: 320000,
       name: "Black Knight Helm",
@@ -12795,7 +12795,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-321000",
+    "ARMOR-321000",
     {
       id: 321000,
       name: "Black Knight Armor",
@@ -12812,7 +12812,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-322000",
+    "ARMOR-322000",
     {
       id: 322000,
       name: "Black Knight Gauntlets",
@@ -12829,7 +12829,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-323000",
+    "ARMOR-323000",
     {
       id: 323000,
       name: "Black Knight Leggings",
@@ -12846,7 +12846,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-530000",
+    "ARMOR-530000",
     {
       id: 530000,
       name: "Giant Helm",
@@ -12863,7 +12863,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-531000",
+    "ARMOR-531000",
     {
       id: 531000,
       name: "Giant Armor",
@@ -12880,7 +12880,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-532000",
+    "ARMOR-532000",
     {
       id: 532000,
       name: "Giant Gauntlets",
@@ -12897,7 +12897,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-533000",
+    "ARMOR-533000",
     {
       id: 533000,
       name: "Giant Leggings",
@@ -12914,7 +12914,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-90000",
+    "ARMOR-90000",
     {
       id: 90000,
       name: "Six-Eyed Helm of the Channelers",
@@ -12931,7 +12931,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-91000",
+    "ARMOR-91000",
     {
       id: 91000,
       name: "Robe of the Channelers",
@@ -12948,7 +12948,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-92000",
+    "ARMOR-92000",
     {
       id: 92000,
       name: "Gauntlets of the Channelers",
@@ -12965,7 +12965,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-93000",
+    "ARMOR-93000",
     {
       id: 93000,
       name: "Waistcloth of the Channelers",
@@ -12982,7 +12982,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-250000",
+    "ARMOR-250000",
     {
       id: 250000,
       name: "Painting Guardian Hood",
@@ -12999,7 +12999,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-251000",
+    "ARMOR-251000",
     {
       id: 251000,
       name: "Painting Guardian Robe",
@@ -13016,7 +13016,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-252000",
+    "ARMOR-252000",
     {
       id: 252000,
       name: "Painting Guardian Gloves",
@@ -13033,7 +13033,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-253000",
+    "ARMOR-253000",
     {
       id: 253000,
       name: "Painting Guardian Waistcloth",
@@ -13050,7 +13050,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-620000",
+    "ARMOR-620000",
     {
       id: 620000,
       name: "Fang Boar Helm",
@@ -13073,7 +13073,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-630000",
+    "ARMOR-630000",
     {
       id: 630000,
       name: "Gargoyle Helm",
@@ -13096,7 +13096,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-470000",
+    "ARMOR-470000",
     {
       id: 470000,
       name: "Golem Helm",
@@ -13113,7 +13113,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-471000",
+    "ARMOR-471000",
     {
       id: 471000,
       name: "Golem Armor",
@@ -13130,7 +13130,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-472000",
+    "ARMOR-472000",
     {
       id: 472000,
       name: "Golem Gauntlets",
@@ -13147,7 +13147,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-473000",
+    "ARMOR-473000",
     {
       id: 473000,
       name: "Golem Leggings",
@@ -13164,7 +13164,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-80000",
+    "ARMOR-80000",
     {
       id: 80000,
       name: "Smough's Helm",
@@ -13181,7 +13181,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-81000",
+    "ARMOR-81000",
     {
       id: 81000,
       name: "Smough's Armor",
@@ -13198,7 +13198,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-82000",
+    "ARMOR-82000",
     {
       id: 82000,
       name: "Smough's Gauntlets",
@@ -13215,7 +13215,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-83000",
+    "ARMOR-83000",
     {
       id: 83000,
       name: "Smough's Leggings",
@@ -13232,7 +13232,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-270000",
+    "ARMOR-270000",
     {
       id: 270000,
       name: "Ornstein's Helm",
@@ -13249,7 +13249,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-271000",
+    "ARMOR-271000",
     {
       id: 271000,
       name: "Ornstein's Armor",
@@ -13266,7 +13266,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-272000",
+    "ARMOR-272000",
     {
       id: 272000,
       name: "Ornstein's Gauntlets",
@@ -13283,7 +13283,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-273000",
+    "ARMOR-273000",
     {
       id: 273000,
       name: "Ornstein's Leggings",
@@ -13300,7 +13300,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-660000",
+    "ARMOR-660000",
     {
       id: 660000,
       name: "Helm of Artorias",
@@ -13317,7 +13317,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-661000",
+    "ARMOR-661000",
     {
       id: 661000,
       name: "Armor of Artorias",
@@ -13334,7 +13334,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-662000",
+    "ARMOR-662000",
     {
       id: 662000,
       name: "Gauntlets of Artorias",
@@ -13351,7 +13351,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-663000",
+    "ARMOR-663000",
     {
       id: 663000,
       name: "Leggings of Artorias",
@@ -13368,7 +13368,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-680000",
+    "ARMOR-680000",
     {
       id: 680000,
       name: "Gough's Helm",
@@ -13385,7 +13385,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-681000",
+    "ARMOR-681000",
     {
       id: 681000,
       name: "Gough's Armor",
@@ -13402,7 +13402,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-682000",
+    "ARMOR-682000",
     {
       id: 682000,
       name: "Gough's Gauntlets",
@@ -13419,7 +13419,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-683000",
+    "ARMOR-683000",
     {
       id: 683000,
       name: "Gough's Leggings",
@@ -13436,7 +13436,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-670000",
+    "ARMOR-670000",
     {
       id: 670000,
       name: "Porcelain Mask",
@@ -13453,7 +13453,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-671000",
+    "ARMOR-671000",
     {
       id: 671000,
       name: "Lord's Blade Robe",
@@ -13470,7 +13470,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-672000",
+    "ARMOR-672000",
     {
       id: 672000,
       name: "Lord's Blade Gloves",
@@ -13487,7 +13487,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-673000",
+    "ARMOR-673000",
     {
       id: 673000,
       name: "Lord's Blade Waistcloth",
@@ -13504,7 +13504,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-540000",
+    "ARMOR-540000",
     {
       id: 540000,
       name: "Crown of the Dark Sun",
@@ -13521,7 +13521,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-541000",
+    "ARMOR-541000",
     {
       id: 541000,
       name: "Moonlight Robe",
@@ -13538,7 +13538,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-542000",
+    "ARMOR-542000",
     {
       id: 542000,
       name: "Moonlight Gloves",
@@ -13555,7 +13555,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-543000",
+    "ARMOR-543000",
     {
       id: 543000,
       name: "Moonlight Waistcloth",
@@ -13572,7 +13572,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-550000",
+    "ARMOR-550000",
     {
       id: 550000,
       name: "Crown of the Great Lord",
@@ -13589,7 +13589,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-551000",
+    "ARMOR-551000",
     {
       id: 551000,
       name: "Robe of the Great Lord",
@@ -13606,7 +13606,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-552000",
+    "ARMOR-552000",
     {
       id: 552000,
       name: "Bracelet of the Great Lord",
@@ -13623,7 +13623,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-553000",
+    "ARMOR-553000",
     {
       id: 553000,
       name: "Anklet of the Great Lord",
@@ -13640,7 +13640,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-40000",
+    "ARMOR-40000",
     {
       id: 40000,
       name: "Dark Mask",
@@ -13657,7 +13657,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-41000",
+    "ARMOR-41000",
     {
       id: 41000,
       name: "Dark Armor",
@@ -13674,7 +13674,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-42000",
+    "ARMOR-42000",
     {
       id: 42000,
       name: "Dark Gauntlets",
@@ -13691,7 +13691,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-43000",
+    "ARMOR-43000",
     {
       id: 43000,
       name: "Dark Leggings",
@@ -13708,7 +13708,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-200000",
+    "ARMOR-200000",
     {
       id: 200000,
       name: "Helm of Thorns",
@@ -13726,7 +13726,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-201000",
+    "ARMOR-201000",
     {
       id: 201000,
       name: "Armor of Thorns",
@@ -13744,7 +13744,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-202000",
+    "ARMOR-202000",
     {
       id: 202000,
       name: "Gauntlets of Thorns",
@@ -13762,7 +13762,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-203000",
+    "ARMOR-203000",
     {
       id: 203000,
       name: "Leggings of Thorns",
@@ -13780,7 +13780,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-100000",
+    "ARMOR-100000",
     {
       id: 100000,
       name: "Helm of Favor",
@@ -13798,7 +13798,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-101000",
+    "ARMOR-101000",
     {
       id: 101000,
       name: "Embraced Armor of Favor",
@@ -13816,7 +13816,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-102000",
+    "ARMOR-102000",
     {
       id: 102000,
       name: "Gauntlets of Favor",
@@ -13834,7 +13834,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-103000",
+    "ARMOR-103000",
     {
       id: 103000,
       name: "Leggings of Favor",
@@ -13852,7 +13852,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-20000",
+    "ARMOR-20000",
     {
       id: 20000,
       name: "Paladin Helm",
@@ -13869,7 +13869,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-21000",
+    "ARMOR-21000",
     {
       id: 21000,
       name: "Paladin Armor",
@@ -13886,7 +13886,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-22000",
+    "ARMOR-22000",
     {
       id: 22000,
       name: "Paladin Gauntlets",
@@ -13903,7 +13903,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-23000",
+    "ARMOR-23000",
     {
       id: 23000,
       name: "Paladin Leggings",
@@ -13920,7 +13920,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-120000",
+    "ARMOR-120000",
     {
       id: 120000,
       name: "Stone Helm",
@@ -13937,7 +13937,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-121000",
+    "ARMOR-121000",
     {
       id: 121000,
       name: "Stone Armor",
@@ -13954,7 +13954,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-122000",
+    "ARMOR-122000",
     {
       id: 122000,
       name: "Stone Gauntlets",
@@ -13971,7 +13971,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-123000",
+    "ARMOR-123000",
     {
       id: 123000,
       name: "Stone Leggings",
@@ -13988,7 +13988,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-690000",
+    "ARMOR-690000",
     {
       id: 690000,
       name: "Guardian Helm",
@@ -14005,7 +14005,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-691000",
+    "ARMOR-691000",
     {
       id: 691000,
       name: "Guardian Armor",
@@ -14023,7 +14023,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-692000",
+    "ARMOR-692000",
     {
       id: 692000,
       name: "Guardian Gauntlets",
@@ -14040,7 +14040,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-693000",
+    "ARMOR-693000",
     {
       id: 693000,
       name: "Guardian Leggings",
@@ -14057,7 +14057,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-440000",
+    "ARMOR-440000",
     {
       id: 440000,
       name: "Havel's Helm",
@@ -14074,7 +14074,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-441000",
+    "ARMOR-441000",
     {
       id: 441000,
       name: "Havel's Armor",
@@ -14091,7 +14091,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-442000",
+    "ARMOR-442000",
     {
       id: 442000,
       name: "Havel's Gauntlets",
@@ -14108,7 +14108,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-443000",
+    "ARMOR-443000",
     {
       id: 443000,
       name: "Havel's Leggings",
@@ -14125,7 +14125,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-290000",
+    "ARMOR-290000",
     {
       id: 290000,
       name: "Xanthous Crown",
@@ -14142,7 +14142,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-291000",
+    "ARMOR-291000",
     {
       id: 291000,
       name: "Xanthous Overcoat",
@@ -14159,7 +14159,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-292000",
+    "ARMOR-292000",
     {
       id: 292000,
       name: "Xanthous Gloves",
@@ -14176,7 +14176,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-293000",
+    "ARMOR-293000",
     {
       id: 293000,
       name: "Xanthous Waistcloth",
@@ -14193,7 +14193,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-590000",
+    "ARMOR-590000",
     {
       id: 590000,
       name: "Mask of the Father",
@@ -14222,7 +14222,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-600000",
+    "ARMOR-600000",
     {
       id: 600000,
       name: "Mask of the Mother",
@@ -14251,7 +14251,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-610000",
+    "ARMOR-610000",
     {
       id: 610000,
       name: "Mask of the Child",
@@ -14280,7 +14280,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-580000",
+    "ARMOR-580000",
     {
       id: 580000,
       name: "Royal Helm",
@@ -14297,7 +14297,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-560000",
+    "ARMOR-560000",
     {
       id: 560000,
       name: "Sack",
@@ -14314,7 +14314,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-190000",
+    "ARMOR-190000",
     {
       id: 190000,
       name: "Sunlight Maggot",
@@ -14335,7 +14335,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-570000",
+    "ARMOR-570000",
     {
       id: 570000,
       name: "Symbol of Avarice",
@@ -14364,7 +14364,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-710000",
+    "ARMOR-710000",
     {
       id: 710000,
       name: "Bloated Head",
@@ -14381,7 +14381,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "armor-720000",
+    "ARMOR-720000",
     {
       id: 720000,
       name: "Bloated Sorcerer Head",
@@ -14398,7 +14398,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-111",
+    "RINGS-111",
     {
       id: 111,
       name: "Tiny Being's Ring",
@@ -14421,7 +14421,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-104",
+    "RINGS-104",
     {
       id: 104,
       name: "Cloranthy Ring",
@@ -14438,7 +14438,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-100",
+    "RINGS-100",
     {
       id: 100,
       name: "Havel's Ring",
@@ -14455,7 +14455,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-120",
+    "RINGS-120",
     {
       id: 120,
       name: "Ring of Steel Protection",
@@ -14472,7 +14472,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-107",
+    "RINGS-107",
     {
       id: 107,
       name: "Spell Stoneplate Ring",
@@ -14489,7 +14489,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-105",
+    "RINGS-105",
     {
       id: 105,
       name: "Flame Stoneplate Ring",
@@ -14506,7 +14506,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-106",
+    "RINGS-106",
     {
       id: 106,
       name: "Thunder Stoneplate Ring",
@@ -14523,7 +14523,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-108",
+    "RINGS-108",
     {
       id: 108,
       name: "Speckled Stoneplate Ring",
@@ -14546,7 +14546,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-109",
+    "RINGS-109",
     {
       id: 109,
       name: "Bloodbite Ring",
@@ -14563,7 +14563,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-110",
+    "RINGS-110",
     {
       id: 110,
       name: "Poisonbite Ring",
@@ -14580,7 +14580,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-113",
+    "RINGS-113",
     {
       id: 113,
       name: "Cursebite Ring",
@@ -14597,7 +14597,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-101",
+    "RINGS-101",
     {
       id: 101,
       name: "Red Tearstone Ring",
@@ -14614,7 +14614,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-147",
+    "RINGS-147",
     {
       id: 147,
       name: "Blue Tearstone Ring",
@@ -14631,7 +14631,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-126",
+    "RINGS-126",
     {
       id: 126,
       name: "Ring of Sacrifice",
@@ -14660,7 +14660,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-127",
+    "RINGS-127",
     {
       id: 127,
       name: "Rare Ring of Sacrifice",
@@ -14689,7 +14689,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-115",
+    "RINGS-115",
     {
       id: 115,
       name: "Bellowing Dragoncrest Ring",
@@ -14706,7 +14706,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-141",
+    "RINGS-141",
     {
       id: 141,
       name: "Lingering Dragoncrest Ring",
@@ -14723,7 +14723,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-123",
+    "RINGS-123",
     {
       id: 123,
       name: "Slumbering Dragoncrest Ring",
@@ -14747,7 +14747,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-116",
+    "RINGS-116",
     {
       id: 116,
       name: "Dusk Crown Ring",
@@ -14764,7 +14764,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-114",
+    "RINGS-114",
     {
       id: 114,
       name: "White Seance Ring",
@@ -14781,7 +14781,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-149",
+    "RINGS-149",
     {
       id: 149,
       name: "Darkmoon Seance Ring",
@@ -14799,7 +14799,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-148",
+    "RINGS-148",
     {
       id: 148,
       name: "Ring of the Sun's Firstborn",
@@ -14816,7 +14816,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-102",
+    "RINGS-102",
     {
       id: 102,
       name: "Darkmoon Blade Covenant Ring",
@@ -14833,7 +14833,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-130",
+    "RINGS-130",
     {
       id: 130,
       name: "Ring of the Sun Princess",
@@ -14850,7 +14850,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-144",
+    "RINGS-144",
     {
       id: 144,
       name: "Leo Ring",
@@ -14867,7 +14867,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-146",
+    "RINGS-146",
     {
       id: 146,
       name: "Wolf Ring",
@@ -14884,7 +14884,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-119",
+    "RINGS-119",
     {
       id: 119,
       name: "Hawk Ring",
@@ -14901,7 +14901,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-117",
+    "RINGS-117",
     {
       id: 117,
       name: "Hornet Ring",
@@ -14918,7 +14918,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-145",
+    "RINGS-145",
     {
       id: 145,
       name: "East Wood Grain Ring",
@@ -14935,7 +14935,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-128",
+    "RINGS-128",
     {
       id: 128,
       name: "Dark Wood Grain Ring",
@@ -14958,7 +14958,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-125",
+    "RINGS-125",
     {
       id: 125,
       name: "Rusted Iron Ring",
@@ -14975,7 +14975,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-121",
+    "RINGS-121",
     {
       id: 121,
       name: "Covetous Gold Serpent Ring",
@@ -14993,7 +14993,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-122",
+    "RINGS-122",
     {
       id: 122,
       name: "Covetous Silver Serpent Ring",
@@ -15011,7 +15011,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-138",
+    "RINGS-138",
     {
       id: 138,
       name: "Covenant of Artorias",
@@ -15028,7 +15028,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-139",
+    "RINGS-139",
     {
       id: 139,
       name: "Orange Charred Ring",
@@ -15045,7 +15045,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-137",
+    "RINGS-137",
     {
       id: 137,
       name: "Old Witch's Ring",
@@ -15068,7 +15068,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-103",
+    "RINGS-103",
     {
       id: 103,
       name: "Cat Covenant Ring",
@@ -15085,7 +15085,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-124",
+    "RINGS-124",
     {
       id: 124,
       name: "Ring of Fog",
@@ -15108,7 +15108,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-143",
+    "RINGS-143",
     {
       id: 143,
       name: "Ring of Favor and Protection",
@@ -15143,7 +15143,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-142",
+    "RINGS-142",
     {
       id: 142,
       name: "Ring of the Evil Eye",
@@ -15160,7 +15160,7 @@ export const itemMap = new Map([
     },
   ],
   [
-    "ring-150",
+    "RINGS-150",
     {
       id: 150,
       name: "Calamity Ring",
