@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Segment, Header, Table } from "semantic-ui-react";
+import { Container, Segment, Header, Table, List } from "semantic-ui-react";
 import { knightsHonorData } from "../../constants/knights-honour-data";
 import { itemList } from "../../constants/new-full-item-list";
+import { itemMapWithLocations } from "../../constants/full-item-list";
 import "./KnightsHonorList.css";
 import { DarkSoulsSaveSlot } from "../../util/ds1-save-parser/DarkSoulsSaveFile";
 
@@ -45,12 +46,13 @@ function ItemTable(props: ItemTableProps) {
       <Table.Body>
         {filteredItems.map((i) => {
           const item = itemList.get(i);
+          const itemWithLocations = itemMapWithLocations.get(i);
           return (
             <Table.Row key={i}>
               <Table.Cell>{item}</Table.Cell>
-              {/* <Table.Cell>
+              <Table.Cell>
                 <List as="ul">
-                  {Object.entries(item!.locations).map(([k, v]) => {
+                  {Object.entries(itemWithLocations!.locations).map(([k, v]) => {
                     return v.map((z: any, i: number) => (
                       <List.Item
                         as="li"
@@ -59,7 +61,7 @@ function ItemTable(props: ItemTableProps) {
                     ));
                   })}
                 </List>
-              </Table.Cell> */}
+              </Table.Cell>
             </Table.Row>
           );
         })}
